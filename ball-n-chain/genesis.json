@@ -1,8 +1,52 @@
 {
-  "app_hash": "",
-  "chain_id": "ball-n-chain",
-  "genesis_time": "0001-01-01T00:00:00.000Z",
-  "validators": [],
+  "genesis_time":"2017-06-07T03:36:06Z",
+  "chain_id":"ball-n-chain",
+  "validators":
+  [
+    
+    {
+      "pub_key":{"type":"ed25519","data":"4B9C66D06E96706BA012C60D2FBE5B7522F009EC17839EF77DB4B2EC5754EDAC"},
+      "amount":10,
+      "name":"ball-n-chain-node5"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"1FBF45C2104B4B14D57BF579BF668BCDF3003587233DF7EAE685363ABDF021D5"},
+      "amount":10,
+      "name":"ball-n-chain-node6"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"2BB1F32FBD561D60FA0B88910B124A6B79150725C6A001B0C10CA3CD48258BF8"},
+      "amount":10,
+      "name":"ball-n-chain-node0"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"96DD4399599971F135D22D61ACA34900ED0F7DB65C2AB34F70B45E8BCE0AAF1F"},
+      "amount":10,
+      "name":"ball-n-chain-node1"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"CA5421F78E4041029E53ABF1D548A648D88D104A73E36B6192C8D6BB1108F0B9"},
+      "amount":10,
+      "name":"ball-n-chain-node4"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"930B7B8F56804A22F93AD7767917F359E45AB49525E592F07B8D802A84099C32"},
+      "amount":10,
+      "name":"ball-n-chain-node2"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"875B3CF8C76814BEAC709A7E5241CBECB577F57E31BD2EEC47F4522116869073"},
+      "amount":10,
+      "name":"ball-n-chain-node3"
+    }
+  ],
+  "app_hash":"",
   "app_options": {
     "accounts": [
       {
@@ -124,3 +168,4 @@
     ]
   }
 }
+

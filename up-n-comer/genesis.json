@@ -1,7 +1,53 @@
 {
-  "app_hash": "",
-  "chain_id": "up-n-comer",
-  "genesis_time": "0001-01-01T00:00:00.000Z",
-  "validators": [],
-  "app_options": {}
+  "genesis_time":"2017-06-07T02:47:16Z",
+  "chain_id":"up-n-comer",
+  "validators":
+  [
+    
+    {
+      "pub_key":{"type":"ed25519","data":"8744A8005B8FAE3BE2B934F96B0826A8651D4CA060ACAB440547944C7A47C2AE"},
+      "amount":10,
+      "name":"up-n-comer-node0"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"58C1DA21553FC50E96D7E585D146DF80CFB94365D31819E606CC09282C98817F"},
+      "amount":10,
+      "name":"up-n-comer-node6"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"FEA6ACE70A891DB77B58931851F97DB20F527E0EA4BB8AB9A9A576F764FB2850"},
+      "amount":10,
+      "name":"up-n-comer-node4"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"49906839174689B5585613A6A43EB5D923D6AC44D7DA973537447138F1F14B11"},
+      "amount":10,
+      "name":"up-n-comer-node3"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"861A3109B145047A93C9D4F2CE8600B00C010BF6A5E50F32947C93CFDA0E5DD0"},
+      "amount":10,
+      "name":"up-n-comer-node1"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"0F9F40335150A08917EA31857B87C5BE911708E887B743E353A770AEE3A14954"},
+      "amount":10,
+      "name":"up-n-comer-node5"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"85328500F187A729AB0B96D706197DFCAA3A0BC7723E513FF92F4BCEF841EF41"},
+      "amount":10,
+      "name":"up-n-comer-node2"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {
+  }
 }
+
