@@ -1,49 +1,49 @@
 {
-  "genesis_time":"2017-06-07T03:36:06Z",
+  "genesis_time":"2017-06-08T17:54:05Z",
   "chain_id":"ball-n-chain",
   "validators":
   [
     
     {
-      "pub_key":{"type":"ed25519","data":"4B9C66D06E96706BA012C60D2FBE5B7522F009EC17839EF77DB4B2EC5754EDAC"},
-      "amount":10,
-      "name":"ball-n-chain-node5"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"1FBF45C2104B4B14D57BF579BF668BCDF3003587233DF7EAE685363ABDF021D5"},
-      "amount":10,
-      "name":"ball-n-chain-node6"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"2BB1F32FBD561D60FA0B88910B124A6B79150725C6A001B0C10CA3CD48258BF8"},
-      "amount":10,
-      "name":"ball-n-chain-node0"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"96DD4399599971F135D22D61ACA34900ED0F7DB65C2AB34F70B45E8BCE0AAF1F"},
+      "pub_key":{"type":"ed25519","data":"51D9200B0BAFC8CE82020F32031231E140D035A377BBEBE4222F1EC0FFC45C29"},
       "amount":10,
       "name":"ball-n-chain-node1"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"CA5421F78E4041029E53ABF1D548A648D88D104A73E36B6192C8D6BB1108F0B9"},
-      "amount":10,
-      "name":"ball-n-chain-node4"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"930B7B8F56804A22F93AD7767917F359E45AB49525E592F07B8D802A84099C32"},
+      "pub_key":{"type":"ed25519","data":"3E55163FC1E189BFA57692EB3D88D50F8D55EDF7A28C2238D3207CE8506FC631"},
       "amount":10,
       "name":"ball-n-chain-node2"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"875B3CF8C76814BEAC709A7E5241CBECB577F57E31BD2EEC47F4522116869073"},
+      "pub_key":{"type":"ed25519","data":"10F31962A43C185E3DB5E192FC2E87CBA59BD3B8673AFEDF1CA9FB8BA4148B4A"},
+      "amount":10,
+      "name":"ball-n-chain-node5"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"67EFBE61085A0D27FB0E633EB40750D1C817D8466BFCF25CA4710266390CDB94"},
+      "amount":10,
+      "name":"ball-n-chain-node6"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"301533B9CB4C37B9B729EE915171A0407679460A268950B2EFC39A0CA5EC4250"},
+      "amount":10,
+      "name":"ball-n-chain-node0"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"7BB4ABB1541706C27E25F5F71B6D6F33F1AFC8D5F3C18944DA387F1C15960969"},
       "amount":10,
       "name":"ball-n-chain-node3"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"D9E2A8D50EE37BB892A0FAD4F0E6B462F83F747B2885A3CD9D0868D95DBE8C50"},
+      "amount":10,
+      "name":"ball-n-chain-node4"
     }
   ],
   "app_hash":"",
@@ -108,24 +108,6 @@
           {
             "denom": "frey",
             "amount": 4838271727204
-          }
-        ]
-      },
-      {
-        "name": "rigel",
-        "address": "3A8BE0EEE474C8D197AA14312B59ACB2D9DFECDE",
-        "pub_key": {
-          "type": "ed25519",
-          "data": "C7CAC198E3999C4DD9F25C575C4C10587C083F73B1E985AC65658992DE6B552E"
-        },
-        "coins": [
-          {
-            "denom": "radio",
-            "amount": 50
-          },
-          {
-            "denom": "tv",
-            "amount": 3478765434568
           }
         ]
       },

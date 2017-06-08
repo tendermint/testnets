@@ -1,49 +1,49 @@
 {
-  "genesis_time":"2017-06-07T02:47:16Z",
+  "genesis_time":"2017-06-08T15:02:28Z",
   "chain_id":"up-n-comer",
   "validators":
   [
     
     {
-      "pub_key":{"type":"ed25519","data":"8744A8005B8FAE3BE2B934F96B0826A8651D4CA060ACAB440547944C7A47C2AE"},
-      "amount":10,
-      "name":"up-n-comer-node0"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"58C1DA21553FC50E96D7E585D146DF80CFB94365D31819E606CC09282C98817F"},
-      "amount":10,
-      "name":"up-n-comer-node6"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"FEA6ACE70A891DB77B58931851F97DB20F527E0EA4BB8AB9A9A576F764FB2850"},
+      "pub_key":{"type":"ed25519","data":"A93C05B2EC95E025A043EE16522A20DAC35334CCB74AD99DCF358E89BA0BD24E"},
       "amount":10,
       "name":"up-n-comer-node4"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"49906839174689B5585613A6A43EB5D923D6AC44D7DA973537447138F1F14B11"},
+      "pub_key":{"type":"ed25519","data":"CC98A374BB896BAD0192C0D4A7537ED4E4EEEF1140CF59ACE0E13090AEBB7B40"},
       "amount":10,
-      "name":"up-n-comer-node3"
+      "name":"up-n-comer-node6"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"861A3109B145047A93C9D4F2CE8600B00C010BF6A5E50F32947C93CFDA0E5DD0"},
+      "pub_key":{"type":"ed25519","data":"FFA1686B44A620B53409DD31E0BE23E13FF4C28479BC9A0F30A1399481D0C698"},
       "amount":10,
       "name":"up-n-comer-node1"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"0F9F40335150A08917EA31857B87C5BE911708E887B743E353A770AEE3A14954"},
+      "pub_key":{"type":"ed25519","data":"CD193A83F821C0B603B1B40270ABD5A31087504AED4B66CEC640E6A56B6BE20B"},
+      "amount":10,
+      "name":"up-n-comer-node0"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"59CD1C375F5817B1309367E0971F140EEAF5EB80255896189CD45EA5AC6AE173"},
       "amount":10,
       "name":"up-n-comer-node5"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"85328500F187A729AB0B96D706197DFCAA3A0BC7723E513FF92F4BCEF841EF41"},
+      "pub_key":{"type":"ed25519","data":"C93253FF30E2E8AB933129DB16F17F00604629E840392B84C4B2FB229DA3DBCE"},
       "amount":10,
       "name":"up-n-comer-node2"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"DDD11E5226A3A696778FB8FAA2227BA0216876EFB863A27D445E5BC934D62D5C"},
+      "amount":10,
+      "name":"up-n-comer-node3"
     }
   ],
   "app_hash":"",
