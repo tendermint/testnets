@@ -36,6 +36,23 @@ To run a node on `ball-n-chain`, start Basecoin as follows:
 BCHOME="$TESTNETS/ball-n-chain" basecoin start 
 ```
 
+DNS names of validator nodes:
+ball-n-chain-node0.testnets.interblock.io
+ball-n-chain-node1.testnets.interblock.io
+ball-n-chain-node2.testnets.interblock.io
+ball-n-chain-node3.testnets.interblock.io
+ball-n-chain-node4.testnets.interblock.io
+ball-n-chain-node5.testnets.interblock.io
+ball-n-chain-node6.testnets.interblock.io
+
+If you want the server closest to you, you can choose from these aliases too:
+ball-n-chain-ams2.testnets.interblock.io
+ball-n-chain-fra1.testnets.interblock.io
+ball-n-chain-lon1.testnets.interblock.io
+ball-n-chain-nyc2.testnets.interblock.io
+ball-n-chain-sfo2.testnets.interblock.io
+ball-n-chain-sgp1.testnets.interblock.io
+ball-n-chain-tor1.testnets.interblock.io
 
 ## Up-N-Comer
 
@@ -44,6 +61,24 @@ To run a node on `up-n-comer`, start Basecoin as follows:
 ```
 BCHOME="$TESTNETS/up-n-comer" basecoin start 
 ```
+
+DNS names of validator nodes:
+up-n-comer-node0.testnets.interblock.io
+up-n-comer-node1.testnets.interblock.io
+up-n-comer-node2.testnets.interblock.io
+up-n-comer-node3.testnets.interblock.io
+up-n-comer-node4.testnets.interblock.io
+up-n-comer-node5.testnets.interblock.io
+up-n-comer-node6.testnets.interblock.io
+
+If you want the server closest to you, you can choose from these aliases too:
+up-n-comer-ams2.testnets.interblock.io
+up-n-comer-fra1.testnets.interblock.io
+up-n-comer-lon1.testnets.interblock.io
+up-n-comer-nyc2.testnets.interblock.io
+up-n-comer-sfo2.testnets.interblock.io
+up-n-comer-sgp1.testnets.interblock.io
+up-n-comer-tor1.testnets.interblock.io
 
 # Get Some Coins
 
