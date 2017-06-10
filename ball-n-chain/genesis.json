@@ -1,49 +1,49 @@
 {
-  "genesis_time":"2017-06-08T17:54:05Z",
+  "genesis_time":"2017-06-10T03:24:06Z",
   "chain_id":"ball-n-chain",
   "validators":
   [
     
     {
-      "pub_key":{"type":"ed25519","data":"51D9200B0BAFC8CE82020F32031231E140D035A377BBEBE4222F1EC0FFC45C29"},
-      "amount":10,
-      "name":"ball-n-chain-node1"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"3E55163FC1E189BFA57692EB3D88D50F8D55EDF7A28C2238D3207CE8506FC631"},
-      "amount":10,
-      "name":"ball-n-chain-node2"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"10F31962A43C185E3DB5E192FC2E87CBA59BD3B8673AFEDF1CA9FB8BA4148B4A"},
-      "amount":10,
-      "name":"ball-n-chain-node5"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"67EFBE61085A0D27FB0E633EB40750D1C817D8466BFCF25CA4710266390CDB94"},
-      "amount":10,
-      "name":"ball-n-chain-node6"
-    }
-    ,
-    {
-      "pub_key":{"type":"ed25519","data":"301533B9CB4C37B9B729EE915171A0407679460A268950B2EFC39A0CA5EC4250"},
+      "pub_key":{"type":"ed25519","data":"3D73A11D01B03F8A54694A2291B878123F25C7BFAD6B187ECF0CA059CB6F73C2"},
       "amount":10,
       "name":"ball-n-chain-node0"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"7BB4ABB1541706C27E25F5F71B6D6F33F1AFC8D5F3C18944DA387F1C15960969"},
+      "pub_key":{"type":"ed25519","data":"5DD43295A0E05872A0CA80CA37D785FED64AF1F2140EB68C111BD114751B4EDB"},
+      "amount":10,
+      "name":"ball-n-chain-node6"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"BDFEE13230E60EB2E3026C8DC158CC0AE29C857507C2B95EC2486B946ECDE6BF"},
+      "amount":10,
+      "name":"ball-n-chain-node4"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"01763737DA0B4C09166DE5496F380665EEF85CDB747F143840BF7E0D1939489F"},
+      "amount":10,
+      "name":"ball-n-chain-node5"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"F40236D218C48DA6EF02BA42D4978F4F7FBE62D068E733CCDE9446B42004A866"},
+      "amount":10,
+      "name":"ball-n-chain-node2"
+    }
+    ,
+    {
+      "pub_key":{"type":"ed25519","data":"93E0A170ADF8D0E6F94AA3C55A076A1574086EADFD7A19EA59911B043F1CE614"},
       "amount":10,
       "name":"ball-n-chain-node3"
     }
     ,
     {
-      "pub_key":{"type":"ed25519","data":"D9E2A8D50EE37BB892A0FAD4F0E6B462F83F747B2885A3CD9D0868D95DBE8C50"},
+      "pub_key":{"type":"ed25519","data":"3DE45E9B5BAF01F172E9C72C9876CFAB49AD6823320D0769868C12045E572C6B"},
       "amount":10,
-      "name":"ball-n-chain-node4"
+      "name":"ball-n-chain-node1"
     }
   ],
   "app_hash":"",
