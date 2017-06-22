@@ -1,0 +1,73 @@
+{
+  "genesis_time":"2017-06-22T00:22:03Z",
+  "chain_id":"hermes",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "01C165D68DF0DB402B1F4F45DF6E3F863D71B7C55F7FFAAF15A71EF7339AC928",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node4"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "BEFD9F3D24ACD43F961BDCB3401BA8925C74AD2FF4CD39A785EDC416C7E9C9CD",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node3"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "70DE119DA468CB59DE49AAAD9517EE2F8F09683BC06D05BEFE217C953F1AED14",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "5DD1FDD7C9CED65E2F2A653D438739DA83047C90140291BB5A58D622FED7912D",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "0D6D6FB370B4B1106D8ABCBCBF7733625E2E20639BF0C9588C962BDB51C33A59",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node6"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "274BCC63C6F35EDD57AD02E308C02AC93604A5EF33AE90A98ED8813A7E8C9962",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "A382F4F9336CA8B1EED1D8A8B289B166FB2D680CE9391A79F73A3319DBD1D362",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node0"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
