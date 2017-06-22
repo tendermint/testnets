@@ -1,57 +1,12 @@
 {
-  "genesis_time":"2017-06-22T18:42:29Z",
+  "genesis_time":"2017-06-22T23:07:02Z",
   "chain_id":"hermes",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "6DA0C9A919D15A31C968538D19BB803925DEEA690CE2DF948334A358BDC069E9",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node4"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "E94020FD987A681A91495F6757582E7696D8BAB37AAB563B386B72DBCF95320E",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node6"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "C5B1AF6D1B776103A73959D5D7F7749B2E4C15DDE0C97CDB42BDF2D84159B046",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node2"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "25CBBA1114E6FC18A82C13F7832A5917280B133E044D6D97120C7E3F18C66F55",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node1"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "1EB016D4ABA40AF62D319C836E71AFD64EA2D3631AE3D51BF6BD8B8F842B0E0D",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node0"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "465C706FC53323F3161CAE8FC90FDF22EEF0618328EE02B52284BF873267EAA7",
+        "data": "37A63AA1BC6D155CD84C16333A06659AD454A26EB35ACE0E0ABA13393B4AE2C5",
         "type": "ed25519"
       },
       "amount":10,
@@ -60,11 +15,56 @@
     ,
     {
       "pub_key": {
-        "data": "9F8BC09BA73EF176E96D247773246030E5FC1928DD6C14957C13D7E780CBEFBB",
+        "data": "4C72B4EAC8FB55E26553792474568D9BEEA0F2184237621960F49D745F520A28",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "8EF6BC12AED98DB867CF316ABAEAA7FC46308241DD6AFF2F4DA4681DFF634847",
         "type": "ed25519"
       },
       "amount":10,
       "name":"hermes-node5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "8A15BEA10FEC772BDB84B92ECAC2A420202E2B61FF965E5D2DA784CF877AFFAD",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FA2D44C6C19916C7D6E8070172B3D098EC7FFD8EE73EFE7DB9A667E60E6BFAC3",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node4"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "4866E38BEA1CE93146B0E8A73B6D7E86A75E2161CE03BF2FBDDD7661A0DC0607",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node0"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "D2494AAD501E487AF76DE6B578F7321A8CE63C4E10F3CCA9E9FB178453DE7833",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node6"
     }
   ],
   "app_hash":"",
