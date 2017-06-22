@@ -1,12 +1,21 @@
 {
-  "genesis_time":"2017-06-22T18:02:13Z",
+  "genesis_time":"2017-06-22T23:19:28Z",
   "chain_id":"mercury",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "D2D48F76641AE44ACAE17315A64F00CFFF1CD34DB9787EBC2CA1625A603454AA",
+        "data": "594FF12372070CF60BAA939C9A36FA5247FF33E9B4B264C166474FE3B214BFEC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node4"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "775A24299B9BE7D64B2B14A553EAD04889E859474B0BB25C580CB5D8B4446DA2",
         "type": "ed25519"
       },
       "amount":10,
@@ -15,25 +24,7 @@
     ,
     {
       "pub_key": {
-        "data": "B87A95A100EE1C9E2E2D35F51EE244DB960EC3C8DEC561FB4C9E1901C728B76A",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node2"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "F8955717D8E066EF225BDCCA72E464D27ED79DC2C75B0B72165A95A1A7276850",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node5"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "F21F667D44F92CF98AFEDCFE1011F72E47FE3EBC0AA27C0499C6AF9486A0DD22",
+        "data": "C467CD4540747652B6A0F913CEAC2CF0178B64BF9B09A1659DF481F209DC17B3",
         "type": "ed25519"
       },
       "amount":10,
@@ -42,7 +33,25 @@
     ,
     {
       "pub_key": {
-        "data": "28278E6AC1AC301D0CC89BC29E5060C365F9F6C4D5B93C092A8EDFEDF1AAFA24",
+        "data": "77152F041086D532F7E63F61DBA183CFAED3C507E170FF3ADE0EDDAE83071D5E",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "22E3A7FF73048F4FEA2CE942F9490FF4241579A09A58F0325E149846C3769CA6",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "66B96A1A4AA185692EFE41AC47A97CADFD792E1E12144572E0C45EADD4CA1342",
         "type": "ed25519"
       },
       "amount":10,
@@ -51,20 +60,11 @@
     ,
     {
       "pub_key": {
-        "data": "F8D734630EE7810E91D3E4D4CFB9DEC13A375E5052CCE86BF2C63824983E3E3F",
+        "data": "141E6095102379E33A6ED72B2CE83D6B59E3CA6460FC8983096DF16E9B9C87EF",
         "type": "ed25519"
       },
       "amount":10,
       "name":"mercury-node1"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "462D4B3399457355DC45CF4DF2C534CD89190DC219F6F928CC96026EF5B7F212",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node4"
     }
   ],
   "app_hash":"",
