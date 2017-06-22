@@ -1,57 +1,21 @@
 {
-  "genesis_time":"2017-06-22T15:37:21Z",
+  "genesis_time":"2017-06-22T18:02:13Z",
   "chain_id":"mercury",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "AE9079A0716B1D513B3A4831C221AA297990ED46975037170D5C5070568F4A1E",
+        "data": "D2D48F76641AE44ACAE17315A64F00CFFF1CD34DB9787EBC2CA1625A603454AA",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"mercury-node6"
+      "name":"mercury-node0"
     }
     ,
     {
       "pub_key": {
-        "data": "8DDB0517C6E8B4E66A991B3C6DD6D800FDE4340E92864E9500E9DB38996B2A10",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node3"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "31DE87AA4D14763D2569904DE06385F8DF44F3492A10B001BE8CA836F6F74FFF",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node5"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "504F5B82CBB4F7C87867BE940C875BC785490245904960E6A2795D571A6AE51A",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node1"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "1756DD0C4547AB3F68A0C86450082D50334784AC20EC19FEA5681D9A86CB1EEB",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node4"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "02347EE33A20726F38E98E42CD9FC1E6F7F33B649721966261F4FA60CB92643C",
+        "data": "B87A95A100EE1C9E2E2D35F51EE244DB960EC3C8DEC561FB4C9E1901C728B76A",
         "type": "ed25519"
       },
       "amount":10,
@@ -60,11 +24,47 @@
     ,
     {
       "pub_key": {
-        "data": "6C3B85AA650B6B9EF95325ABB6DCDB302704CCD2AA17A3FC62F7829ABD9EE831",
+        "data": "F8955717D8E066EF225BDCCA72E464D27ED79DC2C75B0B72165A95A1A7276850",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"mercury-node0"
+      "name":"mercury-node5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F21F667D44F92CF98AFEDCFE1011F72E47FE3EBC0AA27C0499C6AF9486A0DD22",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node3"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "28278E6AC1AC301D0CC89BC29E5060C365F9F6C4D5B93C092A8EDFEDF1AAFA24",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node6"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F8D734630EE7810E91D3E4D4CFB9DEC13A375E5052CCE86BF2C63824983E3E3F",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "462D4B3399457355DC45CF4DF2C534CD89190DC219F6F928CC96026EF5B7F212",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node4"
     }
   ],
   "app_hash":"",
