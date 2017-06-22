@@ -1,39 +1,21 @@
 {
-  "genesis_time":"2017-06-22T15:22:53Z",
+  "genesis_time":"2017-06-22T18:42:29Z",
   "chain_id":"hermes",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "E983B6D0F56DED647FA68F57A48511933993B415344EF5A58A9F001406D529AB",
+        "data": "6DA0C9A919D15A31C968538D19BB803925DEEA690CE2DF948334A358BDC069E9",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"hermes-node5"
+      "name":"hermes-node4"
     }
     ,
     {
       "pub_key": {
-        "data": "F9A11AF239C6D74C3C69B5077DE6B46D73F797742C10A81476E31CBD380271F9",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node2"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "88AAA4DB71954F3FB8133555C2E6292BBC92A4E7454035071999396A1A629FEE",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"hermes-node0"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "FB3177AE158A557227B96150B1792E8D979CDFEB10D6D524CC584AB37EA9B382",
+        "data": "E94020FD987A681A91495F6757582E7696D8BAB37AAB563B386B72DBCF95320E",
         "type": "ed25519"
       },
       "amount":10,
@@ -42,7 +24,16 @@
     ,
     {
       "pub_key": {
-        "data": "AB8266617F3D8489A233E6A3A00FC2DA7B99012D3C72E8AA4AC26EA06C63F492",
+        "data": "C5B1AF6D1B776103A73959D5D7F7749B2E4C15DDE0C97CDB42BDF2D84159B046",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "25CBBA1114E6FC18A82C13F7832A5917280B133E044D6D97120C7E3F18C66F55",
         "type": "ed25519"
       },
       "amount":10,
@@ -51,7 +42,16 @@
     ,
     {
       "pub_key": {
-        "data": "A0716EA4F9C754A12E9413BCCC2C96C855E59DA75AF706639A45044763BB2D27",
+        "data": "1EB016D4ABA40AF62D319C836E71AFD64EA2D3631AE3D51BF6BD8B8F842B0E0D",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"hermes-node0"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "465C706FC53323F3161CAE8FC90FDF22EEF0618328EE02B52284BF873267EAA7",
         "type": "ed25519"
       },
       "amount":10,
@@ -60,11 +60,11 @@
     ,
     {
       "pub_key": {
-        "data": "8E4240183BE453E277C940CC7DB5A28F63C719B665D99A0EACECCE29ACBB8B34",
+        "data": "9F8BC09BA73EF176E96D247773246030E5FC1928DD6C14957C13D7E780CBEFBB",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"hermes-node4"
+      "name":"hermes-node5"
     }
   ],
   "app_hash":"",

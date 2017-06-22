@@ -1,20 +1,24 @@
 {
-  "app_hash": "",
-  "chain_id": "hermes",
-  "genesis_time": "0001-01-01T00:00:00.000Z",
+  "genesis_time":"2017-06-22T18:42:29Z",
+  "chain_id":"hermes",
   "validators": [],
+  "app_hash":"",
   "app_options": {
     "accounts": [
       {
         "name": "relay",
         "address": "1B1BE55F969F54064628A63B9559E7C21C925165",
+        "pub_key": {
+          "type": "ed25519",
+          "data": "619D3678599971ED29C7529DDD4DA537B97129893598A17C82E3AC9A8BA95279"
+        },
         "coins": [
           {
-            "denom": "relay-coin",
+            "denom": "mycoin",
             "amount": 9007199254740992
           }
         ]
       }
-    ]
-  }
+    ]  }
 }
+
