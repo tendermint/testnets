@@ -15,9 +15,9 @@ mkdir -p $TMHOME_HERMES $TMHOME_MERCURY
 
 # create some aliases to use instead of raw `basecli` and `basecoin` to ensure we're using the right configuration for the chain we want to talk to.
 alias basecli-mercury="basecli --home $BCHOME_MERCURY_CLIENT"
-alias basecli-hermes="basecli --home $BCHOME_HERMES_CLIENT"
+alias basecli-venus="basecli --home $BCHOME_HERMES_CLIENT"
 alias basecoin-mercury="basecoin --home $BCHOME_MERCURY_SERVER"
-alias basecoin-hermes="basecoin --home $BCHOME_HERMES_SERVER"
+alias basecoin-venus="basecoin --home $BCHOME_HERMES_SERVER"
 alias tendermint-mercury="tendermint --home $TMHOME_MERCURY"
 alias tendermint-hermes="tendermint --home $TMHOME_HERMES"
 
