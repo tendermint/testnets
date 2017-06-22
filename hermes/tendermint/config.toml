@@ -1,0 +1,15 @@
+# This is a TOML config file.
+# For more information, see https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:12348"
+moniker = "anonymous"
+fast_sync = true
+db_backend = "leveldb"
+log_level = "state:info,*:error"
+
+[rpc]
+laddr = "tcp://0.0.0.0:12347"
+
+[p2p]
+laddr = "tcp://0.0.0.0:12346"
+seeds = "hermes-node0.testnets.interblock.io:46656,hermes-node1.testnets.interblock.io:46656,hermes-node2.testnets.interblock.io:46656,hermes-node3.testnets.interblock.io:46656,hermes-node4.testnets.interblock.io:46656,hermes-node5.testnets.interblock.io:46656,hermes-node6.testnets.interblock.io:46656"
