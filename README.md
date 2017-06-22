@@ -1,6 +1,6 @@
 # Announcing the Basecoin Testnets!
 
-We're putting up two public testnets named `ball-n-chain` and `up-n-comer`,
+We're putting up two public testnets named `mercury` and `hermes`,
 both of which will run Basecoin on Tendermint with the Interblockchain Communication protocol,
 so you can send tokens back and forth between them.
 
@@ -30,62 +30,62 @@ The `testnets` repository contains all the necessary `genesis.json` and `config.
 
 ## Ball-N-Chain
 
-To run a node on `ball-n-chain`, start Basecoin as follows:
+To run a node on `mercury`, start Basecoin as follows:
 
 ```
-BCHOME="$TESTNETS/ball-n-chain" basecoin start 
+BCHOME="$TESTNETS/mercury" basecoin start 
 ```
 
 DNS names of validator nodes:
 ```
-ball-n-chain-node0.testnets.interblock.io
-ball-n-chain-node1.testnets.interblock.io
-ball-n-chain-node2.testnets.interblock.io
-ball-n-chain-node3.testnets.interblock.io
-ball-n-chain-node4.testnets.interblock.io
-ball-n-chain-node5.testnets.interblock.io
-ball-n-chain-node6.testnets.interblock.io
+mercury-node0.testnets.interblock.io
+mercury-node1.testnets.interblock.io
+mercury-node2.testnets.interblock.io
+mercury-node3.testnets.interblock.io
+mercury-node4.testnets.interblock.io
+mercury-node5.testnets.interblock.io
+mercury-node6.testnets.interblock.io
 ```
 
 If you want the server closest to you, you can choose from these aliases too:
 ```
-ball-n-chain-ams2.testnets.interblock.io
-ball-n-chain-fra1.testnets.interblock.io
-ball-n-chain-lon1.testnets.interblock.io
-ball-n-chain-nyc2.testnets.interblock.io
-ball-n-chain-sfo2.testnets.interblock.io
-ball-n-chain-sgp1.testnets.interblock.io
-ball-n-chain-tor1.testnets.interblock.io
+mercury-ams2.testnets.interblock.io
+mercury-fra1.testnets.interblock.io
+mercury-lon1.testnets.interblock.io
+mercury-nyc3.testnets.interblock.io
+mercury-sfo2.testnets.interblock.io
+mercury-sgp1.testnets.interblock.io
+mercury-tor1.testnets.interblock.io
 ```
 
 ## Up-N-Comer
 
-To run a node on `up-n-comer`, start Basecoin as follows:
+To run a node on `hermes`, start Basecoin as follows:
 
 ```
-BCHOME="$TESTNETS/up-n-comer" basecoin start 
+BCHOME="$TESTNETS/hermes" basecoin start 
 ```
 
 DNS names of validator nodes:
 ```
-up-n-comer-node0.testnets.interblock.io
-up-n-comer-node1.testnets.interblock.io
-up-n-comer-node2.testnets.interblock.io
-up-n-comer-node3.testnets.interblock.io
-up-n-comer-node4.testnets.interblock.io
-up-n-comer-node5.testnets.interblock.io
-up-n-comer-node6.testnets.interblock.io
+hermes-node0.testnets.interblock.io
+hermes-node1.testnets.interblock.io
+hermes-node2.testnets.interblock.io
+hermes-node3.testnets.interblock.io
+hermes-node4.testnets.interblock.io
+hermes-node5.testnets.interblock.io
+hermes-node6.testnets.interblock.io
 ```
 
 If you want the server closest to you, you can choose from these aliases too:
 ```
-up-n-comer-ams2.testnets.interblock.io
-up-n-comer-fra1.testnets.interblock.io
-up-n-comer-lon1.testnets.interblock.io
-up-n-comer-nyc2.testnets.interblock.io
-up-n-comer-sfo2.testnets.interblock.io
-up-n-comer-sgp1.testnets.interblock.io
-up-n-comer-tor1.testnets.interblock.io
+hermes-ams2.testnets.interblock.io
+hermes-fra1.testnets.interblock.io
+hermes-lon1.testnets.interblock.io
+hermes-nyc3.testnets.interblock.io
+hermes-sfo2.testnets.interblock.io
+hermes-sgp1.testnets.interblock.io
+hermes-tor1.testnets.interblock.io
 ```
 
 # Get Some Coins
@@ -101,7 +101,7 @@ You'll need to enter and re-enter a passphrase. The command will then output an 
 Post your Cosmos address in the #testnet channel on the [Tendermint slack](), and wait for someone to send you some coins.
 
 Once you have coins, you can send them around using the `basecli`. You'll need to know which chain you got the coins on.
-For instance, if your coins are on `ball-n-chain`, you can send them to another account on `ball-n-chain` as follow:
+For instance, if your coins are on `mercury`, you can send them to another account on `mercury` as follow:
 
 
 Check the new balance:
