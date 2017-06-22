@@ -1,21 +1,12 @@
 {
-  "genesis_time":"2017-06-22T00:12:09Z",
+  "genesis_time":"2017-06-22T15:37:21Z",
   "chain_id":"mercury",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "24828AED3106A25D0B935AC4EB740F9CBEBF3440EACE7A24AC25D299722F5AC1",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node0"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "2ED7CC1FDDB4795A743D28EFE59A8F89297FAB46CEB0C6105CD6BB9762143FD9",
+        "data": "AE9079A0716B1D513B3A4831C221AA297990ED46975037170D5C5070568F4A1E",
         "type": "ed25519"
       },
       "amount":10,
@@ -24,7 +15,7 @@
     ,
     {
       "pub_key": {
-        "data": "DE4F296706DE134A660FCA600444FC47B89A6CAC1306288B263DC8A9DFC96632",
+        "data": "8DDB0517C6E8B4E66A991B3C6DD6D800FDE4340E92864E9500E9DB38996B2A10",
         "type": "ed25519"
       },
       "amount":10,
@@ -33,16 +24,7 @@
     ,
     {
       "pub_key": {
-        "data": "5801762B482F478736C7E6F6B35C456F5448AC2CD237FEF9F4F4A2C07644F697",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"mercury-node4"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "180FD18CA3679ED0CAAB2297F628EA9DCDCC9976ABF0F32658F552018282D19E",
+        "data": "31DE87AA4D14763D2569904DE06385F8DF44F3492A10B001BE8CA836F6F74FFF",
         "type": "ed25519"
       },
       "amount":10,
@@ -51,7 +33,25 @@
     ,
     {
       "pub_key": {
-        "data": "7B1C72E03002AE1E965CE9CFCD6A6F03AFD82AF0A2C8A69310A6F6ADB74DEC5B",
+        "data": "504F5B82CBB4F7C87867BE940C875BC785490245904960E6A2795D571A6AE51A",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1756DD0C4547AB3F68A0C86450082D50334784AC20EC19FEA5681D9A86CB1EEB",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node4"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "02347EE33A20726F38E98E42CD9FC1E6F7F33B649721966261F4FA60CB92643C",
         "type": "ed25519"
       },
       "amount":10,
@@ -60,11 +60,11 @@
     ,
     {
       "pub_key": {
-        "data": "3264DA0E6C1DBC4D59DC8FFBC82D2DE5A896C02C7823632C9F3007EF4597D3B2",
+        "data": "6C3B85AA650B6B9EF95325ABB6DCDB302704CCD2AA17A3FC62F7829ABD9EE831",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"mercury-node1"
+      "name":"mercury-node0"
     }
   ],
   "app_hash":"",
