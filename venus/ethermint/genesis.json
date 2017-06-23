@@ -1,18 +1,21 @@
 {
-    "config": {
-        "chainId": 15,
-        "homesteadBlock": 0,
-        "eip155Block": 0,
-        "eip158Block": 0
-    },
-    "nonce": "0xdeadbeefdeadbeef",
-    "timestamp": "0x00",
-    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "difficulty": "0x40",
-    "gasLimit": "0x8000000",
-    "alloc": {
-        "0x7eff122b94897ea5b0e2a9abf47b86337fafebdc": { "balance": "10000" },
-        "0xccf31e1c9ab0675daa493c99dfed58ba9fc8af89": { "balance": "10000000000000000000000000000000000" }
-    }
+  "genesis_time":"2017-06-23T14:57:00Z",
+  "chain_id":"venus",
+  "validators": [],
+  "app_hash":"",
+  "app_options": {
+    "accounts": [{
+      "pub_key": {
+        "type": "ed25519",
+        "data": "619D3678599971ED29C7529DDD4DA537B97129893598A17C82E3AC9A8BA95279"
+      },
+      "coins": [
+        {
+          "denom": "mycoin",
+          "amount": 9007199254740992
+        }
+      ]
+    }]
+  }
 }
+
