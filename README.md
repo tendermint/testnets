@@ -28,7 +28,7 @@ cd "$TESTNETS"
 
 The `testnets` repository contains all the necessary `genesis.json` and `config.toml` files to sync with any of the testnets.
 
-## Ball-N-Chain
+## Mercury
 
 To run a node on `mercury`, start Basecoin as follows:
 
@@ -58,7 +58,7 @@ mercury-sgp1.testnets.interblock.io
 mercury-tor1.testnets.interblock.io
 ```
 
-## Up-N-Comer
+## Hermes
 
 To run a node on `hermes`, start Basecoin as follows:
 
