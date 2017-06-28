@@ -1,21 +1,12 @@
 {
-  "genesis_time":"2017-06-23T14:57:00Z",
+  "genesis_time":"2017-06-28T13:39:18Z",
   "chain_id":"venus",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "F925F7B406A72213F9D6FBA8F2ED36754DEE160B41B7751D1CDD15A88EBA8CEE",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"venus-node0"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "EC2F6D0D37A946FEEDC4B9756AD3A998C3CB100509E60C94E28C6E8159C3DE40",
+        "data": "E24396CFDCBAF3BD0F2C5CF510551F70B4634E4E5EBF9655B1FB57F451ABB344",
         "type": "ed25519"
       },
       "amount":10,
@@ -24,7 +15,25 @@
     ,
     {
       "pub_key": {
-        "data": "A5A53CFAAE7AE5B0C0339D8683B33B93B8D32A21DA2C96220FD363A87A344406",
+        "data": "2C97BEA0B5A4D9EAE04C242C7AD2A6D2BA989E3C4A7B276AB137300C37EB22F7",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"venus-node4"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "CA53D568F6EDC245D80D887F068F8FE7E03D540B2F7D2212CA436FC962394EA3",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"venus-node0"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "CE4877B1E25EDF845EC8F13FAC3B74E0B3A863EBA5B24D10FCDA4A239065E86A",
         "type": "ed25519"
       },
       "amount":10,
@@ -33,7 +42,7 @@
     ,
     {
       "pub_key": {
-        "data": "2EC6A059B1AB0673DEEE3210FF021D3FD8E224C8D7C4AE76DADE28031F89A995",
+        "data": "8A825277C6A71C89B1F3E9AE5C3853E282F73B6F77A4798C03291EDB1F1F5CA5",
         "type": "ed25519"
       },
       "amount":10,
@@ -42,16 +51,7 @@
     ,
     {
       "pub_key": {
-        "data": "B35422BDBC81F7B6FE07FF61D5CA3E9BD1825C077B8C4125FC29B5B66C5F748C",
-        "type": "ed25519"
-      },
-      "amount":10,
-      "name":"venus-node6"
-    }
-    ,
-    {
-      "pub_key": {
-        "data": "478E5B04DD2C63E588E2CF88BDAC9F8BD1A3D74933439E7F99D33B9E71A555BE",
+        "data": "AF8D2B55E6FAD5DCF6000752E2A05A19B3F42E3072B75BBB2217C43B574ACE99",
         "type": "ed25519"
       },
       "amount":10,
@@ -60,11 +60,11 @@
     ,
     {
       "pub_key": {
-        "data": "FE786EA673E1AE10D482AA6A7BB47D9A05FF35C52EC3DC1A41545A62442D165F",
+        "data": "B127402B86C673807AF407B15E324C4565B1A1DC77C85881E7D8D8640C17EBBB",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"venus-node4"
+      "name":"venus-node6"
     }
   ],
   "app_hash":"",
