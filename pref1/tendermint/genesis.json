@@ -1,21 +1,21 @@
 {
-  "genesis_time":"2017-07-26T21:17:16Z",
+  "genesis_time":"2017-07-26T22:05:22Z",
   "chain_id":"pref1",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "8941EF60C99623BC5B3C3C41280943AB2B11EEDCD41DA492ECFFD1B9236A9318",
+        "data": "E8BC5592F72C5DDBEDA6B200BFFD9234F9CDC4C544428BC68EA6D42A097FAE5F",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"pref1-node2"
+      "name":"pref1-node1"
     }
     ,
     {
       "pub_key": {
-        "data": "088AC488AEFBD9C89AD161301E60A3F6D734068376299A3D700EF042F8C4AB4D",
+        "data": "733742C5D58B916E5DC84560A999172B80CBE150755D6E7F6FDF80724E4D1A96",
         "type": "ed25519"
       },
       "amount":10,
@@ -24,11 +24,11 @@
     ,
     {
       "pub_key": {
-        "data": "80B8EF4748D5F93839614BB8630CE763488CABB0ABB45F053A2E2A1577A81F45",
+        "data": "5446F4A6CE7E19A2179307748071A5539C339C9367FC99C97C3D34321E1850FE",
         "type": "ed25519"
       },
       "amount":10,
-      "name":"pref1-node1"
+      "name":"pref1-node2"
     }
   ],
   "app_hash":"",

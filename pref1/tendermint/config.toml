@@ -2,7 +2,7 @@
 # For more information, see https://github.com/toml-lang/toml
 
 proxy_app = "tcp://127.0.0.1:46658"
-moniker = "178.62.113.149"
+moniker = "207.154.211.16"
 fast_sync = true
 db_backend = "leveldb"
 log_level = "debug"
@@ -12,4 +12,4 @@ laddr = "tcp://0.0.0.0:46657"
 
 [p2p]
 laddr = "tcp://0.0.0.0:46656"
-seeds = "95.85.25.62:46656,138.68.81.119:46656"
+seeds = "37.139.15.157:46656,139.59.177.104:46656"
