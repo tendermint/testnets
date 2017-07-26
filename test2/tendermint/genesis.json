@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-07-08T02:59:34Z",
+  "chain_id":"test2",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "E8A686208D726F3F4B79439D3DEF34D7043EE68925B1387DE284E6A3D51BEB1A",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"test2-node0"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+

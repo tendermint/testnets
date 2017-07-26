@@ -1,0 +1,73 @@
+{
+  "genesis_time":"2017-06-22T18:02:13Z",
+  "chain_id":"mercury",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "D2D48F76641AE44ACAE17315A64F00CFFF1CD34DB9787EBC2CA1625A603454AA",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node0"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "B87A95A100EE1C9E2E2D35F51EE244DB960EC3C8DEC561FB4C9E1901C728B76A",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F8955717D8E066EF225BDCCA72E464D27ED79DC2C75B0B72165A95A1A7276850",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F21F667D44F92CF98AFEDCFE1011F72E47FE3EBC0AA27C0499C6AF9486A0DD22",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node3"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "28278E6AC1AC301D0CC89BC29E5060C365F9F6C4D5B93C092A8EDFEDF1AAFA24",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node6"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F8D734630EE7810E91D3E4D4CFB9DEC13A375E5052CCE86BF2C63824983E3E3F",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "462D4B3399457355DC45CF4DF2C534CD89190DC219F6F928CC96026EF5B7F212",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"mercury-node4"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+

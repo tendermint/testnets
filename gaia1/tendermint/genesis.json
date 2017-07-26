@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-07-07T14:13:24Z",
+  "chain_id":"gaia1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "29AF8BAEC5C10D2229F6A257D45434F41B4508325C74099551E446CB4F5A9FCC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"gaia1-node0"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
