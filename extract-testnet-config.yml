@@ -27,6 +27,7 @@
     - { src: "/etc/{{service}}/tendermint/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/tendermint" }
     - { src: "/etc/{{service}}/tendermint/config.toml", dest: "{{output_dir}}/{{testnet_name}}/tendermint" }
     - { src: "/etc/{{service}}/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/{{service}}" }
-    become: no
+    become: yes
+    become_user: "{{service}}"
     run_once: true
 
