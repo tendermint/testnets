@@ -1,0 +1,64 @@
+{
+  "genesis_time":"2017-07-29T14:48:31Z",
+  "chain_id":"pnet1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "D9E6B04A8DC498CDA71C19098BD66B91366DDB32E4E9D8CB2EA7A031CCE711CD",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.3.225.186"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "E1C1A58812A845FE96963970685A0AD4E07E13E0D92315869BFCC8A3E83E474E",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.207.61.28"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "94E08D6C8B56C278F0A01C0E2331C805FCB83B13E23F82C16BA25002D8838AF2",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.228.112.47"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "4F8482A34FA2970C2873D3AFD923A8F7BB29AA69E33DA1A43F074E26A9AFFEA1",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.204.204.52"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "631D598F9989B2AF2B8460093F75A9CF857461ABF1B10E5360CCDF1EE5F8CD65",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.207.218.177"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "475FB19105DBEC621A6E2423A4CE00359E1B40ADE163E1BA166C252822E0ADEE",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.211.143.161"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
