@@ -1,0 +1,10 @@
+{
+  "genesis_time":"2017-07-29T06:51:57Z",
+  "chain_id":"pnet20",
+  "validators":
+  [
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
