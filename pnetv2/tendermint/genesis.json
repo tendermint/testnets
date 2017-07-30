@@ -1,0 +1,64 @@
+{
+  "genesis_time":"2017-07-30T09:23:58Z",
+  "chain_id":"pnetv2",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "E506E5AF6CB440B87AD110D62AF9838A3643B00B3C33625FAA879316DC58A265",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.3.236.86"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "43234EB38FC53D65FD0AD72B9AA78A7A581E020F55FF35F013979467DCBB6F21",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.175.24.95"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "2C5A6EFBCC6BA12944762230C3C6AFE378210A76F917DC4F55E934240533FB11",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.161.8.20"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1348F8B167F7FA489BE1E3B6449873A76C0CEE97CB35F84F67AEF5A70801039B",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.229.71.245"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "400B4D8A4199E58722133ED5C9251EE53CD3B352A694C62F2AC601512B823B3E",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.226.244.142"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "C2F04904013148E2C6E3C022D275EC39160848A21855CC89F5CC9EC1713BCAB0",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.175.143.175"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
