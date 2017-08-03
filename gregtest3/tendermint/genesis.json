@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-08-03T02:35:18Z",
+  "chain_id":"gregtest3",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "A41DA896F7A834F26F9D8E1E2192733FC2E8471DD1A1A3B33A95BB189F958784",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"198.199.126.227"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
