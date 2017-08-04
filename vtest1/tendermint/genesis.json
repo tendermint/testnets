@@ -1,0 +1,172 @@
+{
+  "genesis_time":"2017-08-03T23:58:20Z",
+  "chain_id":"vtest1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "F470C49546DD4988217EAE6D340AC7D350F5A0BC2FA7D83FE7F6DB4EC86041D2",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.204.199.70"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "7F07AEE9D46136F588FDE47275492418E9186680411E3DA666C253A1015A8ECF",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.201.21.146"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "89F2765CB75F395008AE2AA571852A78B663C196D90ACAC8E4178F3A62847B23",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.209.138.141"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F3C2BCA23BD049BE0F300C8F874E2B4D3A6E23FC1B1A81CB7D2CDAB55500900E",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"107.23.178.228"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FCDAD72798C5820AFA8AC3F8464340B213D77FCDA55D4DD78FE22B763E5FCA33",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.207.255.164"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "000CACEF0E56EA02DFFBB866F06523063AC0B8E9AD3141779D222D53F5230024",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.167.203.70"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "47E65A793F41F0A30298D4C8527A8E9306F1C5AD43187CB8D52660713ED8DBC2",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.196.145.54"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "964BCADA6C6E83057D8EB0D426F7E2DF7F22FC9676B39494935A681DE9E3F433",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.232.63.199"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F5C11ADA926A8565127357B1E27AB8B42009C09936C5150B0CE8A2ADE5F3809B",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.165.159.150"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "8FE43EB7EEAEDEFD0E08FFE94F70AC6A93AD79881A79E4F2DA0D768CB3545E94",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.157.235.196"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F332FE3E516B92FCBB02B0688A96F2E5F623365D13DA47BA9EBDF2D20ED09C21",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.200.183.82"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "95EE3016C260FC4D9601D985C329F04CA8078DCF42C10D459AD7EE50BC68D5CC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"34.232.95.181"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1484BE23B75041180D2B8C208B407BCB8B00DA31EF62D829A66AC740586BCCE3",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.70.56"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "98E21E5ABDD21E5676AC5A8F5550950BDBC7114097FDB6A11FDB187E17413FF1",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.121.152"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "C7BBB9B15AC4123F28B22762E3E9D155DB2FC765746F6D42F01649C5369E43DD",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.58.202.18"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1CACE9E71F30369EC204A741F5CAE2E5A08F1A78FEC1F577ED3184F64874663F",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.59.95.244"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "D9474774720683B2C4A7B19A5C2617C77286C2CE66D95B0D33215C03F30AA4EC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.14.230.72"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "281EFE9CF6311324729FD81D2258D8B805D6D95AFB42737D9D371F2CFEDDD70C",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.103.39"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
