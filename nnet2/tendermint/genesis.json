@@ -1,0 +1,100 @@
+{
+  "genesis_time":"2017-08-05T01:06:05Z",
+  "chain_id":"nnet2",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "FB24DF4BA50823015955979FA24172E47488910D98C3BC08D38F10A0396EB765",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.183.55.65"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F0FCFA586DD969D687B1212C4130164CF007DD10D58CF5231BBA4B98E6BD18E9",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.53.180.142"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "C12D87A0C188B4EABF7B87BA8E7AD2AA805CA63009E171D6D59E4B2F0C300011",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.183.187.43"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "2734BA6B11558AD715232B2900A233294091AA5CA6EDD1F9076329BF240C50E0",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"54.215.174.127"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "0E615F26198427236B04968ECEE98B4057006D0FBE16FF4001436748905DB58F",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.110.67"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "D8857305E034F96622F60376A4B51F9D34BB77C09C219799C53F4AB8A66B936D",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.59.71.56"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FC31A16D45CABEE4386FAB653995E7E60EEC2F84B47C5835CA466E3E34F83AAD",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.15.94.28"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "48319E9525E929112710AEC6D96633AD2B76505D41BC779ECBDBE8BEE96CC782",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.59.232.222"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "B23052719BE95D50B46AD2A9CE11C209655F3647B0646FC9B7319901590CAA21",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.59.84.196"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "2F38A18380F12F8D39DDB4F40B7C44918A3B6A33126C9FD7BD62CC3A76B1D7A5",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.15.95.147"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
