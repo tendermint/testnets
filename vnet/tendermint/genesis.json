@@ -1,0 +1,37 @@
+{
+  "genesis_time":"2017-08-22T18:15:51Z",
+  "chain_id":"vnet",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "EA0392523F3104C446C0DFBC0AF7FE8A56EC5D6D4989A58020029A17DB6C5E59",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.245.35"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "E9DD2EEA48140A3026E33D25840EC097A48791E64AEA409DAAB3617527E20C08",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"52.14.124.131"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9F58EA2CD1D0FE9D148AFFD4649470B28BB87E9D461C1F125E87ED061F38D042",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.234.246"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
