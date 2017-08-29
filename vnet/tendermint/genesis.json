@@ -1,0 +1,64 @@
+{
+  "genesis_time":"2017-08-29T23:15:42Z",
+  "chain_id":"vnet",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "05FFA385DD576A241F1BC9890E949D628C0A549A6CA4ECE9593116E263D250EF",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.224.18"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "237036D7D51F3D02C3E075BACBDBAD411DF7DB9EAE8D0C746F155E7C8F75C535",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.221.52.227"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9B4E305BDBE4EDFC28E99D8C1D1ABC2A6F74F031B4E1315AE818C9DB1D1B07A5",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.115.24"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "4E55310D7774619F3E18DF973B4C1726CD67EAD4ADF165F8D876FBEA9F80970B",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"13.58.68.198"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1D068B4ACA823FA63F8556E246C567975359EFFA795BBAE358783E33F0DE7E61",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.220.243.69"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "A70FB77D7FA64D2DC527461C79E6E8982BB223AAD288AC1FCB430883214ED74A",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"18.221.30.49"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
