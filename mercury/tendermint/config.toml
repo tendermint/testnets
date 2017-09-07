@@ -1,15 +1,33 @@
 # This is a TOML config file.
 # For more information, see https://github.com/toml-lang/toml
 
-proxy_app = "tcp://127.0.0.1:23458"
-moniker = "anonymous"
+proxy_app = "tcp://127.0.0.1:46658"
+moniker = "138.68.243.23"
 fast_sync = true
-db_backend = "leveldb"
+db_backend = "memdb"
+#log_level = "mempool:error,*:debug"
 log_level = "state:info,*:error"
 
 [rpc]
-laddr = "tcp://0.0.0.0:23457"
+laddr = "tcp://0.0.0.0:46657"
+
+[mempool]
+recheck = false
+broadcast = false
+wal_dir = ""
+
+[consensus]
+max_block_size_txs = 10000
+create_empty_blocks = false
+timeout_propose = 10000
+skip_timeout_commit = true
+timeout_commit = 1
+wal_light = true
+block_part_size = 262144
 
 [p2p]
-laddr = "tcp://0.0.0.0:23456"
-seeds = "mercury-node0.testnets.interblock.io:46656,mercury-node1.testnets.interblock.io:46656,mercury-node2.testnets.interblock.io:46656,mercury-node3.testnets.interblock.io:46656,mercury-node4.testnets.interblock.io:46656,mercury-node5.testnets.interblock.io:46656,mercury-node6.testnets.interblock.io:46656"
+max_msg_packet_payload_size=65536
+send_rate=51200000 # 50 MB/s
+recv_rate=51200000 # 50 MB/s
+laddr = "tcp://0.0.0.0:46656"
+seeds = "95.85.58.152:46656,138.197.89.238:46656,128.199.102.209:46656,139.59.170.175:46656,159.203.9.116:46656,46.101.123.204:46656,138.68.69.180:46656,159.203.101.162:46656,198.211.125.123:46656,138.197.138.99:46656,178.62.95.226:46656,165.227.15.120:46656,128.199.213.179:46656"
