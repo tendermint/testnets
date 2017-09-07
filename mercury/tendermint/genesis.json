@@ -1,0 +1,73 @@
+{
+  "genesis_time":"2017-09-07T03:18:31Z",
+  "chain_id":"mercury",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "7DC13DEC5E0B61DE306E556902CDF1919B8F2C420A566B9420C3B361E79981BC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"46.101.96.82"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9E5FBF06442E4409E045940169CF7D75436D6E106222131E336E1C67B53EF5CC",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"165.227.12.115"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "CA22955E276B34F2215C8AE90B66A44E1F211C5324C6B38F27829355218CA036",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"178.62.37.25"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FE21725F50FC1D2BAEE351324C665B7029FFD41C4457D9DE4ECB82C0D4182DB0",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"82.196.2.164"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "A387D9D654271828C0C9F6217FA4D96E205CD191B2CD8680E962B82887143759",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"174.138.54.106"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9F090E37B954EE0AFB4655804CA3C4081BEC04F78E3ACB1574203C0419CBAA1D",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"138.197.170.96"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "22FE2C18B62FBBF57CEEDF76026D9A31DC490522E3CE56AEA80F4C573FCD22F6",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"128.199.175.118"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
