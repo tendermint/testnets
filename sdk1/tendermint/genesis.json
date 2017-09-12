@@ -1,0 +1,46 @@
+{
+  "genesis_time":"2017-09-12T22:13:16Z",
+  "chain_id":"sdk1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "A371DC88F4DCFC2C77CE3FB39A52AC7832E9CD7D4948B7DABDF7F7DDA70966C0",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"46.101.42.155"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "5AF3D8A8623DA0284FB56445FB1360073B9FEFB96398342694538C8B64781A28",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"165.227.190.188"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9EF53A10905049B1D76421765D0ED8CAD7A24EFB203CF0C8734CCD78BF7FF845",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"165.227.149.101"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "330B41A8C7ED39D7EC4085E899566496E833D22EEE6142902E4FCD3A686CD2CF",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"37.139.30.72"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
