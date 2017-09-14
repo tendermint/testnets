@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-09-14T00:31:28Z",
+  "chain_id":"t1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "4A77A82A202D8ADAEA9FEFDAE4640E51870E918C21CA6286AA7BC285F7C0E466",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"37.139.23.248"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
