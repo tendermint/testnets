@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-09-15T00:13:25Z",
+  "chain_id":"tomltest1",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "08220949F7E06C9D7B7ACA6400FABE84CD747DAC6DC7A4F58E911D147BF6EFEB",
+        "type": "ed25519"
+      },
+      "amount":10,
+      "name":"95.85.54.149"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
