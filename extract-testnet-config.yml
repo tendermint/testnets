@@ -16,7 +16,6 @@
   - name: Create local folder structure
     file: "path={{item}} state=directory recurse=yes"
     with_items:
-    - "{{output_dir}}/{{testnet_name}}/tendermint"
     - "{{output_dir}}/{{testnet_name}}/{{service}}"
     connection: local
     run_once: true
@@ -25,8 +24,7 @@
     synchronize: "mode=pull src={{item.src}} dest={{item.dest}}"
     with_items:
     - { src: "/etc/{{service}}/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/{{service}}" }
-    - { src: "/etc/{{service}}/tendermint/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/tendermint" }
-    - { src: "/etc/{{service}}/tendermint/config.toml", dest: "{{output_dir}}/{{testnet_name}}/tendermint" }
+    - { src: "/etc/{{service}}/config.toml", dest: "{{output_dir}}/{{testnet_name}}/{{service}}" }
     become: yes
     become_user: "{{service}}"
     run_once: true
