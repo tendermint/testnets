@@ -1,0 +1,19 @@
+{
+  "genesis_time":"2017-10-04T05:39:08Z",
+  "chain_id":"om",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "6F3531603413CAAE5F14B35349F2438B2B9C4507A5D0732F2FE84851F622EB58",
+        "type": "ed25519"
+      },
+      "power":10,
+      "name":"188.226.163.156"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {}
+}
+
