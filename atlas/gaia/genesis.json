@@ -1,5 +1,5 @@
 {
-  "genesis_time":"2017-10-11T17:07:02Z",
+  "genesis_time":"2017-10-11T17:50:18Z",
   "chain_id":"atlas",
   "validators":
   [
@@ -122,6 +122,20 @@
           {
             "denom": "buckycoin",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "bucky-new",
+        "address": "4FE8FFE12EDBA34BE4E587B2125177AC24594BAF",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 40000000000
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 2000
           }
         ]
       },
