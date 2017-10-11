@@ -29,3 +29,29 @@
     become_user: "{{service}}"
     run_once: true
 
+  - name: Get tendermint version
+    command: "tendermint version"
+    register: tendermintversion
+    become: no
+    run_once: true
+
+  - name: Get service version
+    when: service != 'tendermint'
+    command: "{{service}} version"
+    register: serviceversion
+    become: no
+    run_once: true
+
+  - name: Write tendermint version
+    copy: "content={{tendermintversion.stdout}} dest={{output_dir}}/{{testnet_name}}/{{service}}/tendermintversion.txt"
+    become: no
+    run_once: true
+    connection: local
+
+  - name: Write service version
+    when: service != 'tendermint'
+    copy: "content={{serviceversion.stdout}} dest={{output_dir}}/{{testnet_name}}/{{service}}/{{service}}version.txt"
+    become: no
+    run_once: true
+    connection: local
+ 
