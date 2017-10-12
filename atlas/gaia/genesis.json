@@ -1,5 +1,5 @@
 {
-  "genesis_time":"2017-10-12T14:18:23Z",
+  "genesis_time":"2017-10-12T16:50:30Z",
   "chain_id":"atlas",
   "validators":
   [
@@ -251,6 +251,20 @@
           },
           {
             "denom": "bianjiecoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "zaki",
+        "address": "E2080141FEAD5986FD411121CA077F2835294F5A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000000
+          },
+          {
+            "denom": "zakicoin",
             "amount": 1000
           }
         ]
