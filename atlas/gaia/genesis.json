@@ -1,5 +1,5 @@
 {
-  "genesis_time":"2017-10-11T17:50:18Z",
+  "genesis_time":"2017-10-12T14:18:23Z",
   "chain_id":"atlas",
   "validators":
   [
@@ -9,7 +9,7 @@
         "data": "F81665C527F429303DB99409A05481A1C52DD453692266DF95F0912A5F84E6AC",
         "type": "ed25519"
       },
-      "power":1000000000000000,
+      "power":1000,
       "name":"146.185.134.56"
     }
     ,
@@ -18,7 +18,7 @@
         "data": "E2CBA910665E1361805033D97CD4B7F6650F7934B9C17A1FB81B25FF1AD06581",
         "type": "ed25519"
       },
-      "power":1000000000000000,
+      "power":1000,
       "name":"178.62.105.57"
     }
     ,
@@ -27,7 +27,7 @@
         "data": "D39EC7599F786718F5EC3D0BB677EDDFD8148BC10B8A2523632A240131B57B47",
         "type": "ed25519"
       },
-      "power":1000000000000000,
+      "power":1000,
       "name":"159.203.162.103"
     }
     ,
@@ -36,7 +36,7 @@
         "data": "1062A0D68BD8FC93FE1C812B9D203B772884058DBD9767D40DA36B2FD6D1C2A8",
         "type": "ed25519"
       },
-      "power":1000000000000000,
+      "power":1000,
       "name":"46.101.207.142"
     }
   ],
@@ -67,7 +67,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 9007199254740991
+            "amount": 10000000
           },
           {
             "denom": "gregcoin",
@@ -85,7 +85,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 9007199254740992
+            "amount": 10000000
           },
           {
             "denom": "antoncoin",
@@ -99,7 +99,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 1928936473812
+            "amount": 10000000
           },
           {
             "denom": "adriancoin",
@@ -117,7 +117,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 20000000000
+            "amount": 10000000
           },
           {
             "denom": "buckycoin",
@@ -131,7 +131,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 40000000000
+            "amount": 10000000
           },
           {
             "denom": "buckycoin",
@@ -140,12 +140,30 @@
         ]
       },
       {
-        "name": "rige",
+        "name": "rigel",
+        "address": "C7A6F5FD77DDCA5C43600F33D14533A27C683F55",
+        "coins": [
+          {
+            "denom": "rigelcoin",
+            "amount": 1000
+          },
+          {
+            "denom": "fermion",
+            "amount": 10000000
+          }
+        ]
+      },
+      {
+        "name": "rigel2",
         "address": "5B228AB64E290F1FC4D3E933B7623CCA3F015C34",
         "coins": [
           {
+            "denom": "rigelcoin",
+            "amount": 1000
+          },
+          {
             "denom": "fermion",
-            "amount": 40000000000
+            "amount": 10000000
           }
         ]
       },
@@ -159,7 +177,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "shadowcoin",
@@ -173,7 +191,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "pengcoin",
@@ -187,7 +205,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "mattcoin",
@@ -201,7 +219,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "freycoin",
@@ -215,7 +233,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "wancloudcoin",
@@ -229,7 +247,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 53712836452781
+            "amount": 10000000
           },
           {
             "denom": "bianjiecoin",
