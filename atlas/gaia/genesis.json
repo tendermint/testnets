@@ -9,7 +9,7 @@
         "data": "F81665C527F429303DB99409A05481A1C52DD453692266DF95F0912A5F84E6AC",
         "type": "ed25519"
       },
-      "power":10,
+      "power":1000000000000000,
       "name":"146.185.134.56"
     }
     ,
@@ -18,7 +18,7 @@
         "data": "E2CBA910665E1361805033D97CD4B7F6650F7934B9C17A1FB81B25FF1AD06581",
         "type": "ed25519"
       },
-      "power":10,
+      "power":1000000000000000,
       "name":"178.62.105.57"
     }
     ,
@@ -27,7 +27,7 @@
         "data": "D39EC7599F786718F5EC3D0BB677EDDFD8148BC10B8A2523632A240131B57B47",
         "type": "ed25519"
       },
-      "power":10,
+      "power":1000000000000000,
       "name":"159.203.162.103"
     }
     ,
@@ -36,7 +36,7 @@
         "data": "1062A0D68BD8FC93FE1C812B9D203B772884058DBD9767D40DA36B2FD6D1C2A8",
         "type": "ed25519"
       },
-      "power":10,
+      "power":1000000000000000,
       "name":"46.101.207.142"
     }
   ],
@@ -141,15 +141,23 @@
       },
       {
         "name": "rigel",
-        "address": "3A8BE0EEE474C8D197AA14312B59ACB2D9DFECDE",
+        "address": "5B228AB64E290F1FC4D3E933B7623CCA3F015C34",
         "pub_key": {
           "type": "ed25519",
-          "data": "C7CAC198E3999C4DD9F25C575C4C10587C083F73B1E985AC65658992DE6B552E"
+          "data": "FC2437076EAF5A8A3921CBAABDD33B7EA57D7C1FF22823E93F3D5FBA565A9426"
         },
         "coins": [
           {
-            "denom": "rigelcoin",
-            "amount": 1000
+            "denom": "lol",
+            "amount": 1000000000000
+          },
+          {
+            "denom": "jks",
+            "amount": 1000000000000
+          },
+          {
+            "denom": "brb",
+            "amount": 1000000000000
           },
           {
             "denom": "fermion",
