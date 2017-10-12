@@ -148,12 +148,12 @@
         },
         "coins": [
           {
-            "denom": "lol",
-            "amount": 1000000000000
+            "denom": "fermion",
+            "amount": 40000000000
           },
           {
-            "denom": "fermion",
-            "amount": 3478765434568
+            "denom": "rigerige",
+            "amount": 2000
           }
         ]
       },
