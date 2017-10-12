@@ -140,7 +140,7 @@
         ]
       },
       {
-        "name": "rigel",
+        "name": "rige",
         "address": "5B228AB64E290F1FC4D3E933B7623CCA3F015C34",
         "pub_key": {
           "type": "ed25519",
@@ -149,14 +149,6 @@
         "coins": [
           {
             "denom": "lol",
-            "amount": 1000000000000
-          },
-          {
-            "denom": "jks",
-            "amount": 1000000000000
-          },
-          {
-            "denom": "brb",
             "amount": 1000000000000
           },
           {
