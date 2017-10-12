@@ -142,18 +142,10 @@
       {
         "name": "rige",
         "address": "5B228AB64E290F1FC4D3E933B7623CCA3F015C34",
-        "pub_key": {
-          "type": "ed25519",
-          "data": "FC2437076EAF5A8A3921CBAABDD33B7EA57D7C1FF22823E93F3D5FBA565A9426"
-        },
         "coins": [
           {
             "denom": "fermion",
             "amount": 40000000000
-          },
-          {
-            "denom": "rigerige",
-            "amount": 2000
           }
         ]
       },
