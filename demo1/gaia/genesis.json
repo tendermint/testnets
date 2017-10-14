@@ -1,5 +1,5 @@
 {
-  "genesis_time":"2017-10-14T01:46:01Z",
+  "genesis_time":"2017-10-14T12:46:40Z",
   "chain_id":"demo1",
   "validators":
   [
@@ -113,7 +113,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 10000
           },
           {
             "denom": "buckycoin",
@@ -127,7 +127,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 10000000000
           },
           {
             "denom": "buckycoin",
