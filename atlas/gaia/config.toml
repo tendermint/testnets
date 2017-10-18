@@ -14,7 +14,7 @@ laddr = "tcp://0.0.0.0:46657"
 
 
 [consensus]
-create_empty_blocks_interval = 1
+create_empty_blocks_interval = 3600
 
 
 [p2p]
