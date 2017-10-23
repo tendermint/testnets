@@ -5,7 +5,7 @@ moniker = "207.154.203.177"
 proxy_app = "tcp://127.0.0.1:46658"
 
 [consensus]
-create_empty_blocks_interval = 1
+create_empty_blocks_interval = 3600
 
 [rpc]
 laddr = "tcp://0.0.0.0:46657"
