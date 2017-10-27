@@ -109,15 +109,15 @@
       },
       {
         "name": "bucky",
-        "address": "2B24DEE2364762300168DF19B6C18BCE2D399EA2",
+        "address": "7F0BB465928F2CF39C3BFCD34EA06D28707E1FF1",
         "coins": [
           {
             "denom": "fermion",
-            "amount": 10000
+            "amount": 100000000
           },
           {
             "denom": "buckycoin",
-            "amount": 1000
+            "amount": 1000000
           }
         ]
       },
