@@ -31,6 +31,7 @@
     run_once: true
 
   - name: Get tendermint version
+    when: service != 'tendermint'
     command: "tendermint version"
     register: tendermintversion
     become: no
@@ -44,6 +45,7 @@
     run_once: true
 
   - name: Write tendermint version
+    when: service != 'tendermint'
     copy: "content={{tendermintversion.stdout}} dest={{output_dir}}/{{testnet_name}}/{{service}}/tendermintversion.txt"
     become: no
     run_once: true
