@@ -1,0 +1,23 @@
+# This is a TOML config file.
+# For more information, see https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:46658"
+moniker = "207.154.238.84"
+fast_sync = true
+
+db_backend = "leveldb"
+log_level = "state:info,*:error"
+#log_level = "*:debug"
+
+
+[rpc]
+laddr = "tcp://0.0.0.0:46657"
+
+
+[consensus]
+create_empty_blocks_interval = 10
+
+
+[p2p]
+laddr = "tcp://0.0.0.0:46656"
+seeds = "82.196.12.91:46656,165.227.100.169:46656,138.68.154.46:46656"
