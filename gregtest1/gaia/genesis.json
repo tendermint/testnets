@@ -1,5 +1,5 @@
 {
-  "genesis_time":"2017-10-21T19:10:28Z",
+  "genesis_time":"2017-11-06T06:58:12Z",
   "chain_id":"gregtest1",
   "validators":
   [
@@ -11,6 +11,33 @@
       },
       "power":1000,
       "name":"188.226.176.16"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "BF2E3F1E08E0FD1AB6FDB9FDDC8CF5843EE1D1A0E8569CAA9A1A5D99A54A37BF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.197.98.247"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "9E9C720A856C00B2992B7F5899A6A8C8ACD2A5B8F3F192B5A5A5106F8DE63346",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"46.101.208.223"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "1D6D6C6D529899F7FF92676DAB9B37E21A31F6ABE639579C85CA0853BE7C4386",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.68.134.218"
     }
   ],
   "app_hash":"",
@@ -45,6 +72,42 @@
           {
             "denom": "gregcoin",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "monitor1",
+        "address": "CE456B8BA9AFD1CBDF4ED14558E8C30691E549EA",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 600000
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "name": "monitor2",
+        "address": "EF708182E21F893634FD8DCB82A5128E16C76B83",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 0
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 0
           }
         ]
       },
