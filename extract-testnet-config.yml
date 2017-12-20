@@ -21,7 +21,6 @@
     run_once: true
 
   - name: Copy files from remote host
-    when: service != 'tendermint'
     synchronize: "mode=pull src={{item.src}} dest={{item.dest}}"
     with_items:
     - { src: "/etc/{{service}}/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/{{service}}" }
