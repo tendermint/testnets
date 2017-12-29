@@ -1,43 +1,43 @@
 {
-  "genesis_time":"2017-10-25T22:13:02Z",
-  "chain_id":"dev-1",
+  "genesis_time":"2017-12-18T21:36:07Z",
+  "chain_id":"gregtest",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "8ADFDD2F41C77498436857D487E76317F126243D49C40557D621941510B03071",
+        "data": "777035E8DD798863F8360E5088EC5B71114B891CBBFCD16ADE83257718F3D63E",
         "type": "ed25519"
       },
-      "power":1001,
-      "name":"207.154.211.166"
+      "power":1000,
+      "name":"138.197.185.72"
     }
     ,
     {
       "pub_key": {
-        "data": "FABB74232C1149625DBD48D44104CFDC60F2336B269EFD89E27441276DC20DE6",
+        "data": "955B72BC2B780544F6DD1F8B45FFB0919790D052ED84603D2AEE7A8742C8F72E",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"178.62.118.129"
+      "name":"138.197.70.115"
     }
     ,
     {
       "pub_key": {
-        "data": "D94C742E5FBC5E6D942ABBBC13F74933857D12ECB7F0AB10D64FE519187F54F3",
+        "data": "D0B5A5C5B217C9C7FEF7CA8F2B69B3B6FD493A83EC06E30D01BFB84347059BDA",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"95.85.55.32"
+      "name":"165.227.224.27"
     }
     ,
     {
       "pub_key": {
-        "data": "9E485DF01785BA99592A1A863C52EE362C26B61E0AFDD8F21AD73098D5DB4F4A",
+        "data": "D4CABFA0F3FE73F25996D3840D26D0098795D7368107600F041A268413FA06F1",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"165.227.109.108"
+      "name":"188.226.174.245"
     }
   ],
   "app_hash":"",
@@ -76,6 +76,42 @@
         ]
       },
       {
+        "name": "monitor1",
+        "address": "CE456B8BA9AFD1CBDF4ED14558E8C30691E549EA",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 600000
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "name": "monitor2",
+        "address": "EF708182E21F893634FD8DCB82A5128E16C76B83",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 0
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 0
+          }
+        ]
+      },
+      {
         "name": "anton",
         "address": "40CC622438D3E42148A1FFD3A27C07C100F8FA3D",
         "pub_key": {
@@ -109,15 +145,15 @@
       },
       {
         "name": "bucky",
-        "address": "7F0BB465928F2CF39C3BFCD34EA06D28707E1FF1",
+        "address": "2B24DEE2364762300168DF19B6C18BCE2D399EA2",
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100000000
+            "amount": 10000
           },
           {
             "denom": "buckycoin",
-            "amount": 1000000
+            "amount": 1000
           }
         ]
       },
@@ -183,7 +219,7 @@
       },
       {
         "name": "peng",
-        "address": "7B8422A210D0F0B8734908C093ECF0E9A768BDB8",
+        "address": "DC97A6E1A3E1FE868B55BA93C7FC626368261E09",
         "coins": [
           {
             "denom": "fermion",
@@ -296,6 +332,30 @@
           {
             "denom": "fermion",
             "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "Fabo",
+        "address": "DF096FDE8D380FA5B2AD20DB2962C82DDEA1ED9B",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          }
+        ]
+      },
+      {
+        "name": "chjango",
+        "address": "1C0F9000D0AF1CBCAF8EAD636B729797905D6D24",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "tokenchjango",
+            "amount": 1000
           }
         ]
       }

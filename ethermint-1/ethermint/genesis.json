@@ -1,16 +1,70 @@
 {
-  "genesis_time":"2017-10-21T19:10:28Z",
-  "chain_id":"gregtest1",
+  "genesis_time":"2017-11-14T14:45:09Z",
+  "chain_id":"ethermint-1",
   "validators":
   [
     
     {
       "pub_key": {
-        "data": "E481422A7DAB8BCFD99226B62CC510D9002FC9110366FFA8091B97B0A4591E0C",
+        "data": "CFF83B19335E5C8A242AD6AD8D29B456EB0D618A5FA89A019821F7EB356A1872",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"188.226.176.16"
+      "name":"146.185.172.52"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "12B52D32402FE9154D7EE28DA1103847E0B6CD33987E300E2BCA6A177ED76E9D",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.68.238.177"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "BB04821584FAA78B49595808F8AE73BA4001FA4BE5FECE935C6C312893E1E598",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"159.203.47.207"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "DC186A617B1BF9D273B7622C5EF63682A32877D1E002DFD4C0BBD219B5F46420",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.197.181.225"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "2B4712F349A15581F4ACE60823D668714104E6DB241AB3D12AFE055460FA2BDC",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"128.199.181.165"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "EB410F75E4C98C460D15242A7C0D5D49769B8EE970769296944D4DAECD9D17F0",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.68.191.70"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "B903C67421D965AC99F7F6762B689A7310F563DA3D38C012C368100DCD270DA9",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"165.227.98.89"
     }
   ],
   "app_hash":"",
@@ -45,6 +99,42 @@
           {
             "denom": "gregcoin",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "monitor1",
+        "address": "CE456B8BA9AFD1CBDF4ED14558E8C30691E549EA",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 600000
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "name": "monitor2",
+        "address": "EF708182E21F893634FD8DCB82A5128E16C76B83",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 0
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 0
           }
         ]
       },
@@ -277,4 +367,21 @@
     "plugin_options": [
       "coin/issuer", {"app": "sigs", "addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"}
     ]  }
+  ,
+  "config": {
+      "chainId": 15,
+      "homesteadBlock": 0,
+      "eip155Block": 0,
+      "eip158Block": 0
+  },
+  "nonce": "0xdeadbeefdeadbeef",
+  "timestamp": "0x00",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "difficulty": "0x40",
+  "gasLimit": "0x8000000",
+  "alloc": {
+    "0x7eff122b94897ea5b0e2a9abf47b86337fafebdc": { "balance": "10000000000000000000000000000000000" },
+    "0xc6713982649D9284ff56c32655a9ECcCDA78422A": { "balance": "10000000000000000000000000000000000" }
+  }
 }
