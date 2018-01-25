@@ -74,7 +74,16 @@
       },
       "power":1000,
       "name":"greg"
+    },
+    {
+      "pub_key": {
+        "data": "88D4D9C17A707D056A707EADB91C084E5A66D09BBF359E7BADDD5B5E5CDAFDC6",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"zach"
     }
+
   ],
   "app_hash":"",
   "app_options": {
@@ -352,6 +361,20 @@
           {
             "denom": "tokenchjango",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "zach",
+        "address": "D75699C286B04B09C40CAABE7E75C064D51E2A7D",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "zeecoin",
+            "amount": 10000
           }
         ]
       }
