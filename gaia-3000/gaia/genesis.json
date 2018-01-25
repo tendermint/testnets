@@ -15,11 +15,20 @@
     ,
     {
       "pub_key": {
-        "data": "27D710DD0FF5276651865FA6EB9B4804E46F987D1BA6A901AC35E2C0D48D7664",
+        "data": "DBE1016C753F0A4713DB13B4209F7D28BAC5962AE0D5BA4A6370077E38374455",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"adrian"
+      "name":"adrian-1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "0491A12A2E900639630E1979F7489A2690D9F59E5138C62659938A6D1B42CE86",
+        "type": "ed25519"
+    },
+      "power":1000,
+      "name":"adrian-2"
     }
     ,
     {
@@ -126,16 +135,30 @@
         ]
       },
       {
-        "name": "adrian",
-        "address": "4548017683F771FDBCF7D8E74F4723868AA20009",
+        "name": "adrian-1",
+        "address": "0FA1DB09E8B174E81E94280C047C158D4271457B",
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 200000
           },
           {
             "denom": "adriancoin",
-            "amount": 1000
+            "amount": 200000
+          }
+        ]
+      },
+      {
+        "name": "adrian-2",
+        "address": "E76A6FFD7A9F88769029C72363ABAF1320341DDC",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 200000
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 200000
           }
         ]
       },
