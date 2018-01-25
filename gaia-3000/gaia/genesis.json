@@ -66,6 +66,15 @@
       "power":1000,
       "name":"nick"
     }
+    ,
+    {
+      "pub_key": {
+        "data": "492DCDE8F3394A97BB92ECC3D025CEA5E380C7A04BF30991FDAF262EECC672C6",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"greg"
+    }
   ],
   "app_hash":"",
   "app_options": {
@@ -86,55 +95,15 @@
       },
       {
         "name": "greg",
-        "address": "B01C264BFE9CBD45458256E613A6F07061A3A6B6",
-        "pub_key": {
-          "type": "ed25519",
-          "data": "E1FFBD187FA2A922CE1B367532CEAC1AD8E606D576AB0D2E2CAA7EC6B7DAC10F"
-        },
+        "address": "",
         "coins": [
           {
             "denom": "fermion",
-            "amount": 1000000
+            "amount": 1000
           },
           {
             "denom": "gregcoin",
             "amount": 1000
-          }
-        ]
-      },
-      {
-        "name": "monitor1",
-        "address": "CE456B8BA9AFD1CBDF4ED14558E8C30691E549EA",
-        "coins": [
-          {
-            "denom": "fermion",
-            "amount": 100
-          },
-          {
-            "denom": "moncoin",
-            "amount": 600000
-          },
-          {
-            "denom": "leadertoken",
-            "amount": 1
-          }
-        ]
-      },
-      {
-        "name": "monitor2",
-        "address": "EF708182E21F893634FD8DCB82A5128E16C76B83",
-        "coins": [
-          {
-            "denom": "fermion",
-            "amount": 100
-          },
-          {
-            "denom": "moncoin",
-            "amount": 0
-          },
-          {
-            "denom": "leadertoken",
-            "amount": 0
           }
         ]
       },
