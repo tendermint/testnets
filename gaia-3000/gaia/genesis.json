@@ -15,16 +15,25 @@
     ,
     {
       "pub_key": {
-        "data": "27D710DD0FF5276651865FA6EB9B4804E46F987D1BA6A901AC35E2C0D48D7664",
+        "data": "DBE1016C753F0A4713DB13B4209F7D28BAC5962AE0D5BA4A6370077E38374455",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"adrian"
+      "name":"adrian-1"
     }
     ,
     {
       "pub_key": {
-        "data": "0A29EF59C9B01CFC880354F83D1253FDF04B9FDCD7411B96D801B52C6F03D376",
+        "data": "0491A12A2E900639630E1979F7489A2690D9F59E5138C62659938A6D1B42CE86",
+        "type": "ed25519"
+    },
+      "power":1000,
+      "name":"adrian-2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "F57716453B7883AA36F74A9741A981FAEF04DF5ED18DBA7C4EC758E68C668F0D",
         "type": "ed25519"
       },
       "power":1000,
@@ -42,7 +51,7 @@
     ,
     {
       "pub_key": {
-        "data": "845F2C16B97D71FAF7C32724DF01A09120E4680FACFF0657977ACC852DF5E7C6",
+        "data": "0E29DBF7CB23516ACA1ADEF66092D055884504AF0CC165AD39F241C54FF01461",
         "type": "ed25519"
       },
       "power":1000,
@@ -74,6 +83,23 @@
       },
       "power":1000,
       "name":"greg"
+    },
+    {
+      "pub_key": {
+        "data": "88D4D9C17A707D056A707EADB91C084E5A66D09BBF359E7BADDD5B5E5CDAFDC6",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"zach"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "B540EF9793B0D95AF1FF491510EEE2037AC6173DB42DCC675822C6039DA8FAFF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"nickray"
     }
   ],
   "app_hash":"",
@@ -81,6 +107,16 @@
     "accounts": [
       {
         "name": "relay",
+        "address": "70C54A8C0002D038B1A2E27B5C46A39F8EB97954",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          }
+        ]
+      },
+      {
+        "name": "michael",
         "address": "1B1BE55F969F54064628A63B9559E7C21C925165",
         "pub_key": {
           "type": "ed25519",
@@ -88,8 +124,12 @@
         },
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "fermion",
             "amount": 9007199254740992
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 5000
           }
         ]
       },
@@ -126,16 +166,44 @@
         ]
       },
       {
-        "name": "adrian",
-        "address": "4548017683F771FDBCF7D8E74F4723868AA20009",
+        "name": "adrian-1",
+        "address": "0FA1DB09E8B174E81E94280C047C158D4271457B",
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 200000
           },
           {
             "denom": "adriancoin",
+            "amount": 200000
+          }
+        ]
+      },
+      {
+        "name": "adrian-2",
+        "address": "E76A6FFD7A9F88769029C72363ABAF1320341DDC",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 200000
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 200000
+          }
+        ]
+      },
+      {
+        "name": "nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+        "coins": [
+          {
+            "denom": "fermion",
             "amount": 1000
+          },
+          {
+            "denom": "validstatecoin",
+            "amount": 10000
           }
         ]
       },
@@ -352,6 +420,20 @@
           {
             "denom": "tokenchjango",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "zach",
+        "address": "D75699C286B04B09C40CAABE7E75C064D51E2A7D",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "zeecoin",
+            "amount": 10000
           }
         ]
       }
