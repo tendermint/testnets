@@ -78,7 +78,7 @@
     ,
     {
       "pub_key": {
-        "data": "492DCDE8F3394A97BB92ECC3D025CEA5E380C7A04BF30991FDAF262EECC672C6",
+        "data": "E16A0ADE87E4E696D4280A382A5D444CC146FA52C9F997B03DB78BA40BE24673",
         "type": "ed25519"
       },
       "power":1000,
@@ -125,7 +125,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 9007199254740992
+            "amount": 1000
           },
           {
             "denom": "buckycoin",
@@ -135,7 +135,7 @@
       },
       {
         "name": "greg",
-        "address": "",
+        "address": "FCBC63D3129ED7090E344C1156BB45188097071C",
         "coins": [
           {
             "denom": "fermion",
@@ -157,7 +157,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 1000
           },
           {
             "denom": "antoncoin",
@@ -171,7 +171,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 200000
+            "amount": 1000
           },
           {
             "denom": "adriancoin",
@@ -213,7 +213,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 10000
+            "amount": 1000
           },
           {
             "denom": "buckycoin",
@@ -227,7 +227,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 10000000000
+            "amount": 1000
           },
           {
             "denom": "buckycoin",
@@ -245,7 +245,7 @@
           },
           {
             "denom": "fermion",
-            "amount": 10000
+            "amount": 1000
           }
         ]
       },
@@ -259,7 +259,7 @@
           },
           {
             "denom": "fermion",
-            "amount": 10000
+            "amount": 1000
           }
         ]
       },
@@ -385,7 +385,7 @@
         "coins": [
           {
             "denom": "fermion",
-            "amount": 100
+            "amount": 1000
           },
           {
             "denom": "cybermonies",
