@@ -25,4 +25,4 @@ index_all_tags = true
 max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:46656"
-seeds = "x.x.x.x:46656,y.y.y.y:46656"
+seeds = "104.155.152.81:46656,y.y.y.y:46656"
