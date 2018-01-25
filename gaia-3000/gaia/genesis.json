@@ -60,7 +60,7 @@
     ,
     {
       "pub_key": {
-        "data": "2B26539CFA678ED5AAA72C55FB6DD4B394D160DDC0478DC50654658683F53A9B",
+        "data": "01A4319D573FA30335E4DCC418B3116E22F43B4AC8490499A96C47CEF41F414D",
         "type": "ed25519"
       },
       "power":1000,
@@ -376,6 +376,20 @@
           {
             "denom": "zakicoin",
             "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "tony",
+        "address": "E8B353593B17BA221317C9210D616ED7C5ECFC66",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "cybermonies",
+            "amount": 1337
           }
         ]
       },
