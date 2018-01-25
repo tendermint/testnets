@@ -81,6 +81,16 @@
     "accounts": [
       {
         "name": "relay",
+        "address": "70C54A8C0002D038B1A2E27B5C46A39F8EB97954",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          }
+        ]
+      },
+      {
+        "name": "michael",
         "address": "1B1BE55F969F54064628A63B9559E7C21C925165",
         "pub_key": {
           "type": "ed25519",
@@ -88,8 +98,12 @@
         },
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "fermion",
             "amount": 9007199254740992
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 5000
           }
         ]
       },
