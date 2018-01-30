@@ -1,0 +1,368 @@
+{
+  "genesis_time":"2018-01-30T12:00:00Z",
+  "chain_id":"gaia-3001",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "F57716453B7883AA36F74A9741A981FAEF04DF5ED18DBA7C4EC758E68C668F0D",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Michael"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "B540EF9793B0D95AF1FF491510EEE2037AC6173DB42DCC675822C6039DA8FAFF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Nick"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FB270BF528F35065D38795C574198CE16D75B601C6A132ECF50AA8AD63B0627E",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Adrian1"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "FEB172E6CD6D7E59C09D36AA5A2A77A74F21684DD05543C78EDC659C3DCD425F",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Adrian2"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "A8DF2B61061E09711E9CEF875B90DB751F82E195CE7A6E329FD8FAEA4B810167",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Greg"
+    }
+  ],
+  "app_hash":"",
+  "app_options": {
+    "accounts": [
+      {
+        "name": "relay",
+        "address": "1B1BE55F969F54064628A63B9559E7C21C925165",
+        "pub_key": {
+          "type": "ed25519",
+          "data": "619D3678599971ED29C7529DDD4DA537B97129893598A17C82E3AC9A8BA95279"
+        },
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          }
+        ]
+      },
+      {
+        "name": "greg",
+        "address": "838800D8F08DCD9C6B355009BCABEE648B3A335B",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "gregcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "monitor1",
+        "address": "CE456B8BA9AFD1CBDF4ED14558E8C30691E549EA",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 600000
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "name": "monitor2",
+        "address": "EF708182E21F893634FD8DCB82A5128E16C76B83",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "moncoin",
+            "amount": 0
+          },
+          {
+            "denom": "leadertoken",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "address": "70C54A8C0002D038B1A2E27B5C46A39F8EB97954",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "michaelcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "adrian",
+        "address": "0FA1DB09E8B174E81E94280C047C158D4271457B",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "Nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "bucky-new",
+        "address": "4FE8FFE12EDBA34BE4E587B2125177AC24594BAF",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000000000
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 2000
+          }
+        ]
+      },
+      {
+        "name": "rigel",
+        "address": "C7A6F5FD77DDCA5C43600F33D14533A27C683F55",
+        "coins": [
+          {
+            "denom": "rigelcoin",
+            "amount": 1000
+          },
+          {
+            "denom": "fermion",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "rigel2",
+        "address": "5B228AB64E290F1FC4D3E933B7623CCA3F015C34",
+        "coins": [
+          {
+            "denom": "rigelcoin",
+            "amount": 1000
+          },
+          {
+            "denom": "fermion",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "shadow",
+        "address": "B140EFAAE6D5CA1C8E98814C557AF7112E3B9EAE",
+        "pub_key": {
+          "type": "ed25519",
+          "data": "F492282705DF29ACC3BB803D543B7BF98C8080FA28AE85B62B45827EA9DA8167"
+        },
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "shadowcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "peng",
+        "address": "DC97A6E1A3E1FE868B55BA93C7FC626368261E09",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "pengcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "matt",
+        "address": "C2104A8191E282AA45D210BA93282B36768EDDA1",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "mattcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "frey",
+        "address": "0F8FB94B5A4D04220F15058B7AA16AF1328B57A9",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "freycoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "wancloud",
+        "address": "02C1F2CE501DAF30F758E657B71FC7AD568C4BE5",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "wancloudcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "bianjie",
+        "address": "7D626173FAA69D96E56523A333EAF78F87843CE5",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "bianjiecoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "alexis",
+        "address": "42989458D3285F05FE0233EE669A1CCD90AE6F3E",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "alexiscoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "zaki",
+        "address": "E2080141FEAD5986FD411121CA077F2835294F5A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "zakicoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "jimyang",
+        "address": "6F94C5B7FEB6EF926A8901A8E8F4B2077D02B354",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "MichaelYuan",
+        "address": "F75D0FD7036A3BB9092DD0938BBF0A9323224832",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "Fabo",
+        "address": "DF096FDE8D380FA5B2AD20DB2962C82DDEA1ED9B",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          }
+        ]
+      },
+      {
+        "name": "chjango",
+        "address": "1C0F9000D0AF1CBCAF8EAD636B729797905D6D24",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "tokenchjango",
+            "amount": 1000
+          }
+        ]
+      }
+
+    ],
+    "plugin_options": [
+      "coin/issuer", {"app": "sigs", "addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"}
+    ]  }
+}
