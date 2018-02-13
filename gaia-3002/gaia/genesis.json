@@ -10,6 +10,14 @@
       },
       "power":1000,
       "name":"Adrian"
+    },
+    {
+      "pub_key": {
+        "data": "CE3501E1B39EB3292D1472FD9DE793FA0BDA5E439D9CD29E54A421488BBB1754",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Brandon"
     }
   ],
   "app_hash":"",
@@ -25,6 +33,20 @@
           },
           {
             "denom": "adriancoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "brandon",
+        "address": "BC1284AA8EC1EB2B167D2D193515E92C987AE6D9",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "brandoncoin",
             "amount": 100000
           }
         ]
