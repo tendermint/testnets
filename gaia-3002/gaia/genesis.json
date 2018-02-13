@@ -202,7 +202,7 @@
         "coins": [
           {
               "denom": "fermion",
-              "amount": 100
+              "amount": 100000
           },
           {
             "denom": "cybermonies",
