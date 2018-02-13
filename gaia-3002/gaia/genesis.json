@@ -21,6 +21,14 @@
     },
     {
       "pub_key": {
+        "data": "93B20E4778D8E36652D9DA114261CE628CA0ADA930BB6FFE7C267536989CD643",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"MyCosmosValidator"
+    },
+    {
+      "pub_key": {
         "data": "778F0B43968F67A9319A40BF76ACBD1CB59C4AEB56913075C6518325E15D6AAD",
         "type": "ed25519"
       },
@@ -132,6 +140,21 @@
         ]
       },
       {
+        "name": "mycosmosvalidator",
+        "address": "8047EA72D2728D56CA38AF2174591E21AA0D0897",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "kriscoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+      
         "name": "michael",
         "address": "68317AE84E6944CB7C5A7C1DC47343BF20A7AF10",
         "coins": [
