@@ -5,11 +5,19 @@
   [
     {
       "pub_key": {
-        "data": "F57716453B7883AA36F74A9741A981FAEF04DF5ED18DBA7C4EC758E68C668F0D",
+        "data": "4E97339F0442920A581FD9B352DF8457B90E46B126B23D751C3DDFB2416C51DF",
         "type": "ed25519"
       },
       "power":1000,
-      "name":"Adrian"
+      "name":"adrian1"
+    },
+    {
+      "pub_key": {
+        "data": "B23B78975404FD69EC11AEF56FEAA9988CC9A7E9E5C853E7221947DA97693924",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"adrian2"
     },
     {
       "pub_key": {
