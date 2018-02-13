@@ -10,6 +10,14 @@
       },
       "power":1000,
       "name":"Adrian"
+    },
+    {
+      "pub_key": {
+        "data": "B540EF9793B0D95AF1FF491510EEE2037AC6173DB42DCC675822C6039DA8FAFF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"ValidState"
     }
   ],
   "app_hash":"",
@@ -26,6 +34,20 @@
           {
             "denom": "adriancoin",
             "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "validstatecoin",
+            "amount": 1000
           }
         ]
       }
