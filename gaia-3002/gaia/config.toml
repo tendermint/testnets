@@ -22,4 +22,4 @@ max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:46656"
 # IPs:
-seeds = ""
+seeds = "gaia-3002.h.valid.st:46656"
