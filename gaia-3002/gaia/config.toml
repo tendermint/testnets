@@ -21,5 +21,5 @@ index_all_tags = true
 max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:46656"
-# IPs: Adrian1, Adrian2
-seeds = "67.207.78.91:46656,165.227.246.236:46656,35.204.86.158:46656"
+# IPs: Adrian1, Adrian2, Nickray, Michael, Zaki
+seeds = "67.207.78.91:46656,165.227.246.236:46656,gaia-3002.h.valid.st:46656,172.31.28.156:46656,35.204.86.158:46656"
