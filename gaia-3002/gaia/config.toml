@@ -7,12 +7,9 @@ fast_sync = true
 
 db_backend = "leveldb"
 log_level = "state:info,*:error"
-#log_level = "*:debug"
-
 
 [rpc]
 laddr = "tcp://0.0.0.0:46657"
-
 
 [consensus]
 create_empty_blocks_interval = 60
@@ -20,10 +17,9 @@ create_empty_blocks_interval = 60
 [tx_index]
 index_all_tags = true
 
-
 [p2p]
 max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:46656"
-//IPs: Greg,Nick,Adrian1,Adrian2,Michael
-seeds = "198.211.124.237:46656,78.46.189.133:46656,67.207.78.91:46656,165.227.246.236:46656,172.31.28.156:46656"
+# IPs:
+seeds = ""
