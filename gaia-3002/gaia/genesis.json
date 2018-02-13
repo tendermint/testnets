@@ -10,6 +10,14 @@
       },
       "power":1000,
       "name":"Adrian"
+    },
+    {
+      "pub_key": {
+        "data": "D9D72EC3F5D53A13E6C4CB2B466A6E0823754667D83B4C6B965EFB147E9D8D5D",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Zaki"
     }
   ],
   "app_hash":"",
@@ -25,6 +33,20 @@
           },
           {
             "denom": "adriancoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "zaki",
+        "address": "E2080141FEAD5986FD411121CA077F2835294F5A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "zakicoin",
             "amount": 100000
           }
         ]
