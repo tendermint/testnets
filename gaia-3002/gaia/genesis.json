@@ -9,23 +9,23 @@
         "type": "ed25519"
       },
       "power":1000,
-      "name":"Michael"
+      "name":"Adrian"
     }
   ],
   "app_hash":"",
   "app_options": {
     "accounts": [
       {
-        "name": "greg",
-        "address": "838800D8F08DCD9C6B355009BCABEE648B3A335B",
+        "name": "adrian",
+        "address": "D6679DA21A235A3BF09B7F8D868631093863D268",
         "coins": [
           {
             "denom": "fermion",
             "amount": 1000000
           },
           {
-            "denom": "gregcoin",
-            "amount": 1000
+            "denom": "adriancoin",
+            "amount": 100000
           }
         ]
       }
