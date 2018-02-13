@@ -13,6 +13,30 @@
     },
     {
       "pub_key": {
+        "data": "B540EF9793B0D95AF1FF491510EEE2037AC6173DB42DCC675822C6039DA8FAFF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"ValidState"
+    },
+    {
+      "pub_key": {
+        "data": "778F0B43968F67A9319A40BF76ACBD1CB59C4AEB56913075C6518325E15D6AAD",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Michael"
+    },
+    {
+      "pub_key": {
+        "data": "D9D72EC3F5D53A13E6C4CB2B466A6E0823754667D83B4C6B965EFB147E9D8D5D",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Zaki"
+    },
+    {
+      "pub_key": {
         "data": "CE3501E1B39EB3292D1472FD9DE793FA0BDA5E439D9CD29E54A421488BBB1754",
         "type": "ed25519"
       },
@@ -25,7 +49,15 @@
         "type": "ed25519"
       },
       "power":1000,
-      "name":"chris"
+      "name":"Chris"
+    },
+    {
+      "pub_key": {
+        "data": "2162BDD7AEE7C0D45ABC89DBD2FCE9043CFB3B797825507EE2811FBB7B6742E5",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Sunny"
     }
   ],
   "app_hash":"",
@@ -60,15 +92,75 @@
         ]
       },
       {
-        "name": "chris",
-        "address": "8B67A833EAF0B599A5802FE18F751F9718CC8548",
+        "name": "sunny",
+        "address": "A3AD8DDD017832943C05C0267A06A86A9451E0E1",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000000
+          },
+          {
+            "denom": "sunnycoin",
+            "amount": 10000000
+          },
+          {
+            "denom": "antifermions",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
         "coins": [
           {
             "denom": "fermion",
             "amount": 1000000
           },
           {
+            "denom": "validstatecoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "michael",
+        "address": "68317AE84E6944CB7C5A7C1DC47343BF20A7AF10",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
+            "denom": "bkcoin",
+            "amount": 3000
+          }
+        ]
+      },
+      {
+        "name": "chris",
+        "address": "8B67A833EAF0B599A5802FE18F751F9718CC8548",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
             "denom": "chriscoin",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "zaki",
+        "address": "E2080141FEAD5986FD411121CA077F2835294F5A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
+            "denom": "zakicoin",
             "amount": 100000
           }
         ]
