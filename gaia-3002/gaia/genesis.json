@@ -26,6 +26,22 @@
       },
       "power":1000,
       "name":"chris"
+    },
+    {
+      "pub_key": {
+        "data": "2C7212C3A94A5BEAEB8A5E8798E3E14C0072F4048FE0A9805D767620F776761E",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"greg1"
+    },
+    {
+      "pub_key": {
+        "data": "63BE34A588F76EA8C356FC3D63FB48C0A4E81D9818AA899C7BE75ED0B1EF81A9",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"greg2"
     }
   ],
   "app_hash":"",
@@ -69,6 +85,20 @@
           },
           {
             "denom": "chriscoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "greg",
+        "address": "DD0107AC43BD4A206C4B3F8F36145A7A7916F974",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "gregcoin",
             "amount": 100000
           }
         ]
