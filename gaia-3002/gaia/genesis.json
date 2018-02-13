@@ -34,6 +34,14 @@
       },
       "power":1000,
       "name":"Zaki"
+    },
+    {
+      "pub_key": {
+        "data": "2162BDD7AEE7C0D45ABC89DBD2FCE9043CFB3B797825507EE2811FBB7B6742E5",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Sunny"
     }
   ],
   "app_hash":"",
@@ -50,6 +58,24 @@
           {
             "denom": "adriancoin",
             "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "sunny",
+        "address": "A3AD8DDD017832943C05C0267A06A86A9451E0E1",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000000
+          },
+          {
+            "denom": "sunnycoin",
+            "amount": 10000000
+          },
+          {
+            "denom": "antifermions",
+            "amount": 1000
           }
         ]
       },
