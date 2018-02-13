@@ -50,6 +50,20 @@
             "amount": 1000
           }
         ]
+      },
+      {
+        "name": "mycosmosvalidator",
+        "address": "8047EA72D2728D56CA38AF2174591E21AA0D0897",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "kriscoin",
+            "amount": 100000
+          }
+        ]
       }
     ],
     "plugin_options": [
