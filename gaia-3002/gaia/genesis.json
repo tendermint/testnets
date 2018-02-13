@@ -2,60 +2,76 @@
   "genesis_time":"2018-02-13T12:00:00Z",
   "chain_id":"gaia-3002",
   "validators":
-    [
-      {
-    "pub_key": {
-      "data": "F57716453B7883AA36F74A9741A981FAEF04DF5ED18DBA7C4EC758E68C668F0D",
-      "type": "ed25519"
+  [
+    {
+      "pub_key": {
+        "data": "F57716453B7883AA36F74A9741A981FAEF04DF5ED18DBA7C4EC758E68C668F0D",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Adrian"
     },
-    "power":1000,
-    "name":"Adrian"
-  },
-  {
-    "pub_key": {
-      "data": "778F0B43968F67A9319A40BF76ACBD1CB59C4AEB56913075C6518325E15D6AAD",
-      "type": "ed25519"
+    {
+      "pub_key": {
+        "data": "B540EF9793B0D95AF1FF491510EEE2037AC6173DB42DCC675822C6039DA8FAFF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"ValidState"
     },
-    "power":1000,
-    "name":"Michael"
-  }
-
+    {
+      "pub_key": {
+        "data": "778F0B43968F67A9319A40BF76ACBD1CB59C4AEB56913075C6518325E15D6AAD",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Michael"
+    }
   ],
   "app_hash":"",
   "app_options": {
     "accounts": [
       {
-      "name": "adrian",
-      "address": "D6679DA21A235A3BF09B7F8D868631093863D268",
-      "coins": [
-        {
-        "denom": "fermion",
-        "amount": 1000000
+        "name": "adrian",
+        "address": "D6679DA21A235A3BF09B7F8D868631093863D268",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 100000
+          }
+        ]
       },
       {
-        "denom": "adriancoin",
-        "amount": 100000
+        "name": "nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "validstatecoin",
+            "amount": 1000
+          }
+        ]
+      },
+        "name": "michael",
+        "address": "68317AE84E6944CB7C5A7C1DC47343BF20A7AF10",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
+            "denom": "bkcoin",
+            "amount": 3000
+          }
+        ]
       }
-      ]
-    },
-    {
-      "name": "michael",
-      "address": "68317AE84E6944CB7C5A7C1DC47343BF20A7AF10",
-      "coins": [
-        {
-        "denom": "fermion",
-        "amount": 100000
-      },
-      {
-        "denom": "adriancoin",
-        "amount": 1000
-      },
-      {
-        "denom": "bkcoin",
-        "amount": 3000
-      }
-      ]
-    }
     ],
     "plugin_options": [
       "coin/issuer", {"app": "sigs", "addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"}
