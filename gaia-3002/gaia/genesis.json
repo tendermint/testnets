@@ -42,6 +42,14 @@
       },
       "power":1000,
       "name":"Sunny"
+    },
+    {
+      "pub_key": {
+        "data": "4C47047018BC6B01C3D3A409916FE341735236815C2A609005AC5A831771F280",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"tony"
     }
   ],
   "app_hash":"",
@@ -117,6 +125,20 @@
           {
             "denom": "zakicoin",
             "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "tony",
+        "address": "19CE912366E2DE128EA6E1DE5324A896370ED7D2",
+        "coins": [
+          {
+              "denom": "fermion",
+              "amount": 100
+          },
+          {
+            "denom": "cybermonies",
+            "amount": 1337
           }
         ]
       }
