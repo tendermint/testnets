@@ -45,11 +45,35 @@
     },
     {
       "pub_key": {
+        "data": "CE3501E1B39EB3292D1472FD9DE793FA0BDA5E439D9CD29E54A421488BBB1754",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Brandon"
+    },
+    {
+      "pub_key": {
+        "data": "B5A19D349A7FFB2A46C42C891F47730A62E8B4F0C39202FB775E1E223C26471A",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"Chris"
+    },
+    {
+      "pub_key": {
         "data": "2162BDD7AEE7C0D45ABC89DBD2FCE9043CFB3B797825507EE2811FBB7B6742E5",
         "type": "ed25519"
       },
       "power":1000,
       "name":"Sunny"
+    },
+    {
+      "pub_key": {
+        "data": "4C47047018BC6B01C3D3A409916FE341735236815C2A609005AC5A831771F280",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"tony"
     }
   ],
   "app_hash":"",
@@ -65,6 +89,20 @@
           },
           {
             "denom": "adriancoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "brandon",
+        "address": "BC1284AA8EC1EB2B167D2D193515E92C987AE6D9",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "brandoncoin",
             "amount": 100000
           }
         ]
@@ -95,7 +133,8 @@
             "denom": "fermion",
             "amount": 1000000
           },
-          {"denom": "validstatecoin",
+          {
+            "denom": "validstatecoin",
             "amount": 1000
           }
         ]
@@ -130,6 +169,20 @@
         ]
       },
       {
+        "name": "chris",
+        "address": "8B67A833EAF0B599A5802FE18F751F9718CC8548",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100000
+          },
+          {
+            "denom": "chriscoin",
+            "amount": 10000
+          }
+        ]
+      },
+      {
         "name": "zaki",
         "address": "E2080141FEAD5986FD411121CA077F2835294F5A",
         "coins": [
@@ -140,6 +193,20 @@
           {
             "denom": "zakicoin",
             "amount": 100000
+          }
+        ]
+      },
+      {
+        "name": "tony",
+        "address": "19CE912366E2DE128EA6E1DE5324A896370ED7D2",
+        "coins": [
+          {
+              "denom": "fermion",
+              "amount": 100
+          },
+          {
+            "denom": "cybermonies",
+            "amount": 1337
           }
         ]
       }
