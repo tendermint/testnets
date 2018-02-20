@@ -16,15 +16,15 @@
   - name: Create local folder structure
     file: "path={{item}} state=directory recurse=yes"
     with_items:
-    - "{{output_dir}}/{{testnet_name}}/{{service}}"
+    - "{{output_dir}}/{{testnet_name}}/config"
     connection: local
     run_once: true
 
   - name: Copy files from remote host
     synchronize: "mode=pull src={{item.src}} dest={{item.dest}}"
     with_items:
-    - { src: "/etc/{{service}}/config/genesis.json", dest: "{{output_dir}}/{{testnet_name}}" }
-    - { src: "/etc/{{service}}/config/config.toml", dest: "{{output_dir}}/{{testnet_name}}" }
+    - { src: "/etc/{{service}}/config/genesis.json", dest: "{{output_dir}}/{{testnet_name}}/config" }
+    - { src: "/etc/{{service}}/config/config.toml", dest: "{{output_dir}}/{{testnet_name}}/config" }
     become: yes
     become_user: "{{service}}"
     run_once: true
