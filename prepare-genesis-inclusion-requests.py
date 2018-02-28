@@ -17,6 +17,7 @@ address = ""
 fermion = {balance}
 
 [[sentry]]
+name = ""
 host = ""
 p2p = {p2p}
 

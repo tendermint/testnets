@@ -30,7 +30,7 @@ index_all_tags = true
 max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:{p2p}"
-# validators: {csv_validator_names}
+# sentry names: {csv_sentry_names}
 seeds = "{csv_p2p_endpoints}"
 """
 
@@ -70,9 +70,9 @@ def main(chain_name, subdir='gaia', skip_sig_checks=True):
 
     config_filename = 'config.toml'
 
-    csv_validator_names = ', '.join([
-        validator.get('name', '')
-        for validator in all_validators])
+    csv_sentry_names = ', '.join([
+        sentry.get('name', '')
+        for sentry in all_sentries])
     csv_p2p_endpoints = ','.join([
         sentry['host'] + ':' + str(sentry.get('p2p', default_ports['p2p']))
         for sentry in all_sentries])
