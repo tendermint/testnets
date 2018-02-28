@@ -36,7 +36,7 @@ def main(chain_name, subdir='gaia', skip_sig_checks=True):
         request = toml.load(str(inclusion_request))
 
         # add validator node entries
-        for validator in request['validators']:
+        for validator in request['validator']:
             print(validator)
             validator_entry = {
                 "name": validator['name'],

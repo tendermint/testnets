@@ -11,7 +11,7 @@ import toml
 config_template = """# https://github.com/toml-lang/toml
 
 proxy_app = "tcp://127.0.0.1:{app}"
-moniker = "{name}"
+moniker = "{moniker}"
 fast_sync = true
 
 db_backend = "leveldb"
@@ -39,9 +39,10 @@ default_ports = {
     'rpc': 46657,
     'app': 46658,
 }
+default_moniker = ""
 
 
-def main(chain_name, for_validator=None, subdir='gaia', skip_sig_checks=True):
+def main(chain_name, subdir='gaia', skip_sig_checks=True):
     """Specify validator "name" from one of the genesis inclusion requests
     to create a customized config file."""
 
@@ -53,41 +54,33 @@ def main(chain_name, for_validator=None, subdir='gaia', skip_sig_checks=True):
     path_base = pathlib.Path(path_base_str)
 
     all_validators = []
+    all_sentries = []
     for inclusion_request in path_base.glob('genesis-inclusion-requests/*.toml'):
         print(":: adding {inclusion_request}".format(**locals()))
         request = toml.load(str(inclusion_request))
 
         # add validator node entries
-        for validator in request['validators']:
+        for validator in request['validator']:
             print(validator)
             all_validators.append(validator)
 
-    if for_validator is None:
-        config_filename = 'config.toml'
-        connect_validators = all_validators
-        p2p = default_ports['p2p']
-        rpc = default_ports['rpc']
-        app = default_ports['app']
-        name = ''
-    else:
-        config_filename = for_validator + '-config.toml'
-        connect_validators = [
-            validator for validator in all_validators
-            if validator['name'] != for_validator
-        ]
-        this_validator = next(validator for validator in all_validators
-                if validator['name'] == for_validator)
-        p2p = this_validator.get('p2p', default_ports['p2p'])
-        rpc = this_validator.get('rpc', default_ports['rpc'])
-        app = this_validator.get('app', default_ports['app'])
-        name = this_validator['name']
+        for sentry in request['sentry']:
+            print(sentry)
+            all_sentries.append(sentry)
+
+    config_filename = 'config.toml'
 
     csv_validator_names = ', '.join([
-        validator['name']
-        for validator in connect_validators])
+        validator.get('name', '')
+        for validator in all_validators])
     csv_p2p_endpoints = ','.join([
-        validator['host'] + ':' + str(validator.get('p2p', default_ports['p2p']))
-        for validator in connect_validators])
+        sentry['host'] + ':' + str(sentry.get('p2p', default_ports['p2p']))
+        for sentry in all_sentries])
+
+    p2p = default_ports['p2p']
+    rpc = default_ports['rpc']
+    app = default_ports['app']
+    moniker = default_moniker
 
     config = config_template.format(**locals())
 

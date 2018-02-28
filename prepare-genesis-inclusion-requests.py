@@ -8,7 +8,6 @@ import fire
 
 basic_template = """[chain]
 name = "{chain_name}"
-# pub_key = "{{chain_pub_key}}"
 
 [account]
 name = ""
@@ -17,12 +16,13 @@ address = ""
 [coins]
 fermion = {balance}
 
-[[validators]]
-name = ""
-pubkey = ""
+[[sentry]]
 host = ""
 p2p = {p2p}
-rpc = {rpc}
+
+[[validator]]
+name = ""
+pub_key = ""
 power = {power}
 """
 
