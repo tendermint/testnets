@@ -18,5 +18,3 @@ See the links below for documentation on joining a public - or creating a local 
 1. generate `genesis.json` and general purpose `config.toml` via
    * `python3 generate-genesis.py <chain name>`
    * `python3 generate-config.py <chain name>`
-1. optionally, generate validator specific config files via
-   * `python3 generate-config.py <chain name> --for-validator <validator name>`
