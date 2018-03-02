@@ -1,0 +1,24 @@
+# https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:46658"
+moniker = ""
+fast_sync = true
+
+db_backend = "leveldb"
+log_level = "state:info,*:error"
+
+[rpc]
+laddr = "tcp://0.0.0.0:46657"
+
+[consensus]
+create_empty_blocks_interval = 60
+
+[tx_index]
+index_all_tags = true
+
+[p2p]
+max_num_peers = 300
+pex = true
+laddr = "tcp://0.0.0.0:46656"
+# sentry names: pbostrom, suyuuu, adrian-one, adrian-two, validstate
+seeds = "34.229.209.18:46656,116.62.62.39:46656,67.207.78.91:46656,165.227.246.236:46656,35.195.251.208:5653"

@@ -1,0 +1,130 @@
+{
+  "genesis_time": "2018-03-02T15:46:14Z",
+  "chain_id": "inofficial-101",
+  "validators": [
+    {
+      "name": "pbostrom",
+      "pub_key": {
+        "data": "1289CF076EDBA71DACBC28C29AB6CDB20E8FF53C58AFE65FED27EACC6EA0CA90",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "suyuuu",
+      "pub_key": {
+        "data": "A59140B268A36BA13A91E12CE8D8D356439517FA1DA3B6DE7207010FAB5A61C4",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "adrian-one",
+      "pub_key": {
+        "data": "DEC97416BB64C735924CE2DC19C64A271F62353A0D309042E6E8B50FB4711C76",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "adrian-two",
+      "pub_key": {
+        "data": "D0EBA91A141E18CE6A3A1ABE8CB2CFB38EA699AC40C2287A1CDDE0D75EDC007A",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "validstate-a",
+      "pub_key": {
+        "data": "C85EFA32D070B669FF3FFBE9F57960EC376981AF28C5CCBC23E6B6A04682C5C8",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "validstate-b",
+      "pub_key": {
+        "data": "7C847574DB0168514B0E96EFD74345CAC53DBB6C91ED45CDD5EFAE0B6BAB6905",
+        "type": "ed25519"
+      },
+      "power": 1000
+    },
+    {
+      "name": "validstate-c",
+      "pub_key": {
+        "data": "A15BA7734D05C4CEA1BAF6F24365FC1F6057B30B3EB7C69683BB1990F3055A3F",
+        "type": "ed25519"
+      },
+      "power": 1000
+    }
+  ],
+  "app_options": {
+    "accounts": [
+      {
+        "name": "pbostrom",
+        "address": "D44BCB86723B493AC659B2AC583D697EA3C96541",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "suyuuu",
+        "address": "7D626173FAA69D96E56523A333EAF78F87843CE5",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "adrian",
+        "address": "0FA1DB09E8B174E81E94280C047C158D4271457B",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 10000
+          },
+          {
+            "denom": "cosmoscoin",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "name": "nickray",
+        "address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          },
+          {
+            "denom": "validstatecoin",
+            "amount": 1000000
+          },
+          {
+            "denom": "singletoncoin",
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "plugin_options": [
+      "coin/issuer",
+      {
+        "app": "sigs",
+        "addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"
+      }
+    ]
+  },
+  "app_hash": ""
+}
