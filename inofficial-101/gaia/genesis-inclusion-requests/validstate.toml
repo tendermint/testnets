@@ -12,7 +12,8 @@ singletoncoin = 1
 
 [[sentry]]
 name = "validstate"
-host = "peer.inofficial-101.valid.st"
+# host = "peer.inofficial-101.valid.st"
+host = "35.195.251.208"
 p2p = 5653
 
 [[validator]]
