@@ -1,0 +1,19 @@
+[chain]
+name = "inofficial-101"
+
+[account]
+name = "suyuuu"
+address = "7D626173FAA69D96E56523A333EAF78F87843CE5"
+
+[coins]
+fermion = 10000
+
+[[sentry]]
+name = "suyuuu"
+host = "116.62.62.39"
+p2p = 46656
+
+[[validator]]
+name = "suyuuu"
+pub_key = "A59140B268A36BA13A91E12CE8D8D356439517FA1DA3B6DE7207010FAB5A61C4"
+power = 1000
