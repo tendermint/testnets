@@ -14,7 +14,7 @@ def main(chain_name, subdir='gaia', skip_sig_checks=True):
         raise Exception('not implemented!')
 
     genesis = dict()
-    genesis['genesis_time'] = datetime.datetime.utcnow().isoformat()
+    genesis['genesis_time'] = datetime.datetime.utcnow().isoformat()[:19] + 'Z'
     genesis['chain_id'] = chain_name
 
     genesis['validators'] = list()
