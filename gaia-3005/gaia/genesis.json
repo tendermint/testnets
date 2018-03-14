@@ -1,0 +1,333 @@
+{
+	"genesis_time": "2018-03-20T12:00:00Z",
+	"chain_id": "gaia-3005",
+	"validators": [{
+			"pub_key": {
+				"data": "6A46F5129B17B078D7BF3F72EE19777552B6A63FF25DEA4C5FBFE6E880913982",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "adrian-one"
+		},
+		{
+			"pub_key": {
+				"data": "09B8141CC89DF210732BFB9B9AA1B165B0DE918B96BC68CBC4907C2F2AA7700E",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "adrian-one"
+		},
+		{
+			"pub_key": {
+				"data": "15D5D6BE776C7491B0A3DEA844AB8D49001D7CE0DDF9DA3B9A30A952FF3CD75A",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "validstate-a"
+		},
+		{
+			"pub_key": {
+				"data": "718F8CF4FD8E236228442840883E20A81652EC004B4A3383CB8AAEC07025175B",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "validstate-b"
+		},
+		{
+			"pub_key": {
+				"data": "7094A1671251D50A963DF20156A64D97AC3BA9181490374C6DACC52A5528375C",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "validstate-c"
+		},
+		{
+			"pub_key": {
+				"type": "ed25519",
+				"data": "0BC9C9BEE2C9BE6D1D0DDC36F0A2C895D00213A7F7369C6A4432271CB0BB39C9"
+			},
+			"power": 1000,
+			"name": "Sunny"
+		},
+		{
+			"pub_key": {
+				"type": "ed25519",
+				"data": "87C1154E2D4EF3F6B60744F6D62B39B2689A59FBE95042DFFEC86FA8723C48E2"
+			},
+			"power": 1000,
+			"name": "amr"
+		},
+		{
+			"pub_key": {
+				"data": "9D8B07D6E3A32F099C0BD5F594112C1A05FB2F4201201E1E90BBF195F94D6672",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "Michael"
+		},
+		{
+			"pub_key": {
+				"data": "92FCE89A12231135F6B5E07C58C82BEDF855EE92B406B768F4B1618A061FBE05",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "tony1"
+		},
+		{
+			"pub_key": {
+				"data": "D6EA9CC8AA50FDAB8C48697AC9E63A4DDB269B3A85115487E36AC9E0F7DB48E0",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "tony2"
+		},
+		{
+			"pub_key": {
+				"data": "84BCA079E9A770DBC788AB50982D9A81877428AD417C2EC20BFD74F8BA689198",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-a.mycosmosvalidator.com"
+		},
+		{
+			"pub_key": {
+				"data": "0C9DAD2D69A1EC5FFB34E5F7BB09C8D579907E4CE99C0D751BA093A8C39F1C68",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-b.mycosmosvalidator.com"
+		},
+		{
+			"pub_key": {
+				"data": "894D3530BE820302DD94FF261863D7038A892EF39D8FD039D09D23632E4B7FC6",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-c.mycosmosvalidator.com"
+		},
+		{
+			"pub_key": {
+				"data": "EFA2BD24F7938B0C9CF0A9D5428684E360449915296192B59C4E5C1D4CE2F88B",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "chainflow01"
+		},
+		{
+			"pub_key": {
+				"data": "98683F1418228F4D5FEEAFE98E77BEF9DF19D81B9794CC786D40B533D67DA21E",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "brandon"
+		},
+		{
+
+			"pub_key": {
+				"data": "FFBE92208578E84C1C88505FF3CEC77DB53001637ADFD0B7089BE631EADDF85E",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "pbostrom"
+		},
+		{
+			"pub_key": {
+				"type": "ed25519",
+				"data": "6DFC219475B1BEA1394507A56FF63CF5AD8CEC9DA2C04A8DD550B029E37AA132"
+			},
+			"power": 1000,
+			"name": "mdyring"
+		},
+		{
+			"pub_key": {
+				"type": "ed25519",
+				"data": "A59140B268A36BA13A91E12CE8D8D356439517FA1DA3B6DE7207010FAB5A61C4"
+			},
+			"power": 1000,
+			"name": "suyuuu"
+		}
+	],
+	"app_hash": "",
+	"app_options": {
+		"accounts": [{
+				"name": "adrian",
+				"address": "9533CEF1CB9C0BD0494A0E5F876EA92F27E273AA",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "adriancoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "michael",
+				"address": "8CDA0D295A6D1241EA33C754353816C31BB55FB5",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "micoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "amr",
+				"address": "EC09B951803763F6D8754EA2374D2DDC35952D7A",
+				"coins": [{
+					"denom": "fermion",
+					"amount": 100000000
+				}]
+			},
+
+			{
+				"name": "tony",
+				"address": "0E3EB6EBF52CE2598A0A971CB92A8C20DC899159",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "l33tco1n",
+						"amount": 1337
+					}
+				]
+			},
+			{
+				"name": "pbostrom",
+				"address": "74E849A0FE358B972C3F5C05479DDF169828D45C",
+				"coins": [{
+					"denom": "fermion",
+					"amount": 100000000
+				}]
+
+			},
+			{
+				"name": "sunny",
+				"address": "5FE41244386A3D429EA65198E27F0A233A86FAAB",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "sunnycoin",
+						"amount": 1000000000
+					},
+					{
+						"denom": "antifermions",
+						"amount": 1000
+					}
+				]
+			},
+			{
+				"name": "chris",
+				"address": "4036E5F7E6CA0708C4166CFCE9575BD6D4FDC4DC",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "chriscoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "brandon",
+				"address": "3A75D80740B58E7C769CC374BBD014E87337F0E9",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "brandoncoin",
+						"amount": 100000
+					},
+					{
+						"denom": "radarrelaycoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "mdyring",
+				"address": "17D96C629275251A0639607A06DA01566A042461",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "dyringcoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "nickray",
+				"address": "17307FAB613EB9FB20459CF92346E07229BBC6D8",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "singleton",
+						"amount": 2
+					},
+					{
+						"denom": "validly",
+						"amount": 20000
+					}
+				]
+			},
+			{
+				"name": "mycosmosvalidator",
+				"address": "B0B12BFB8886A8584AEE5645BDEE3316F3B6DDD9",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "kriscoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "suyuuu",
+				"address": "7D626173FAA69D96E56523A333EAF78F87843CE5",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "suyuuucoin",
+						"amount": 100000
+					}
+				]
+			},
+			{
+				"name": "nuevax",
+				"address": "7E961C2F8435B3D9235098407F49F5E132C06646",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 10000000
+					},
+					{
+						"denom": "nuevaxcoin",
+						"amount": 100000
+					}
+				]
+			}
+		],
+		"plugin_options": [
+			"coin/issuer", {
+				"app": "sigs",
+				"addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"
+			}
+		]
+	}
+}
