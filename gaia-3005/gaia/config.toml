@@ -1,0 +1,25 @@
+# This is a TOML config file
+# For more information, see https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:46658"
+moniker = "YOURNAME"
+fast_sync = true
+
+db_backend = "leveldb"
+log_level = "state:info,*:error"
+
+[rpc]
+laddr = "tcp://0.0.0.0:46657"
+
+[consensus]
+create_empty_blocks_interval = 60
+
+[tx_index]
+index_all_tags = true
+
+[p2p]
+max_num_peers = 300
+pex = true
+laddr = "tcp://0.0.0.0:46656"
+# DNS works here. Add yours.
+seeds = "gaia-3005-a.mycosmosvalidator.com:46656,gaia-3005-b.mycosmosvalidator.com:46656,gaia-3005-c.mycosmosvalidator.com:46656"

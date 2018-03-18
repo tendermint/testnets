@@ -1,0 +1,54 @@
+{
+	"genesis_time": "2018-03-20T12:00:00Z",
+	"chain_id": "gaia-3005",
+	"validators": [
+		{
+			"pub_key": {
+				"data": "84BCA079E9A770DBC788AB50982D9A81877428AD417C2EC20BFD74F8BA689198",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-a.mycosmosvalidator.com"
+		},
+		{
+			"pub_key": {
+				"data": "0C9DAD2D69A1EC5FFB34E5F7BB09C8D579907E4CE99C0D751BA093A8C39F1C68",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-b.mycosmosvalidator.com"
+		},
+		{
+			"pub_key": {
+				"data": "894D3530BE820302DD94FF261863D7038A892EF39D8FD039D09D23632E4B7FC6",
+				"type": "ed25519"
+			},
+			"power": 1000,
+			"name": "gaia-3005-c.mycosmosvalidator.com"
+		}
+	],
+	"app_hash": "",
+	"app_options": {
+		"accounts": [
+			{
+				"name": "mycosmosvalidator",
+				"address": "B0B12BFB8886A8584AEE5645BDEE3316F3B6DDD9",
+				"coins": [{
+						"denom": "fermion",
+						"amount": 100000000
+					},
+					{
+						"denom": "kriscoin",
+						"amount": 100000
+					}
+				]
+			}
+		],
+		"plugin_options": [
+			"coin/issuer", {
+				"app": "sigs",
+				"addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"
+			}
+		]
+	}
+}
