@@ -22,4 +22,4 @@ max_num_peers = 300
 pex = true
 laddr = "tcp://0.0.0.0:46656"
 # DNS works here. Add yours.
-seeds = "gaia-3005-a.mycosmosvalidator.com:46656,gaia-3005-b.mycosmosvalidator.com:46656,gaia-3005-c.mycosmosvalidator.com:46656,gaia-3005.cosmos.mythos.services:46656"
+seeds = "gaia-3005-a.mycosmosvalidator.com:46656,gaia-3005-b.mycosmosvalidator.com:46656,gaia-3005-c.mycosmosvalidator.com:46656,gaia-3005.cosmos.mythos.services:46656,31.187.71.49:46656"
