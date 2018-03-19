@@ -1,0 +1,9 @@
+# for conda python distribution
+
+name: testnets
+
+dependencies:
+  - python >=3.6
+  - ipython
+  - conda-forge::fire
+  - conda-forge::toml
