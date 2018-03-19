@@ -25,8 +25,16 @@
 			},
 			"power": 1000,
 			"name": "gaia-3005-c.mycosmosvalidator.com"
-		}
-	],
+		},
+          {
+            "pub_key": {
+              "data": "E906AF1570F1AF94FE7E806488B02DCDF6F2EE6F2DF45B77EFC0D59CB5B7E645",
+              "type": "ed25519"
+            },
+            "power": 1000,
+            "name": "gaia-3005.cosmos.mythos.services"
+          }
+        ],
 	"app_hash": "",
 	"app_options": {
 		"accounts": [
@@ -42,8 +50,18 @@
 						"amount": 100000
 					}
 				]
-			}
-		],
+			},
+                  {
+                    "name": "pbostrom",
+                    "address": "39EE01E7BE20EBC7A8FB7F2DA842329E26C31169",
+                    "coins": [
+                      {
+                        "denom": "fermion",
+                        "amount": 100000000
+                      }
+                    ]
+                  }
+                ],
 		"plugin_options": [
 			"coin/issuer", {
 				"app": "sigs",
