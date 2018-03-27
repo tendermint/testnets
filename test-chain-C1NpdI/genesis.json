@@ -1,0 +1,192 @@
+{
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "8DA90C32DF3661784C1A9A8EB342F2A2E5B2A3CF",
+        "coins": [
+            {
+                "denom":"mycoin",
+                "amount":1000
+            },
+          {
+            "denom": "sunnycoin",
+            "amount": 9007199254740993
+          }
+        ]
+      },
+      {
+        "address": "BDE549D201FA361ABFE570E38E4751185717EEDB",
+        "coins": [
+            {
+                "denom":"mycoin",
+                "amount":1000
+            },
+            {
+                "denom": "steak",
+                "amount": 1
+            }
+        ]
+      },
+     {
+        "address": "BA8D5541B8233BC482D9855266EFA756BC5EB9AB",
+        "coins": [
+            {
+                "denom":"mikemoney",
+                "amount":700
+            }
+        ]
+      },    
+      {
+        "address": "57D59B67A049C2A647A282AFF4F764B9201F52EA",
+        "coins": [
+            {
+                "denom":"yaycoin",
+                "amount":1000
+            }
+        ]
+      },
+            {
+        "address": "4E063E4401D68523479559C9A6C8C035F79E974F",
+        "coins": [
+            {
+                "denom":"mycoin",
+                "amount":1000
+            },
+            {
+                "denom":"snowflake",
+                "amount":1
+            },
+            {
+                "denom":"papermoney",
+                "amount":1000000
+            }
+        ]
+      },    
+        {
+        "address": "D86F1E517FC94401BF3AA5FC5667CCB05A2179DC",
+        "coins": [
+            {
+                "denom":"chainflowcoin",
+                "amount":1000
+            }
+        ]
+      },    
+      {
+        "address": "107B28EF3998075B4F124A5843C44A8BE766A1BB",
+        "coins": [
+            {
+                "denom":"mycoin",
+                "amount":1000
+            },
+          {
+            "denom": "pbostromcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "address": "E1680CF19BDC54C7C4945C56E948E2166BEC45ED",
+        "coins": [
+            {
+                "denom": "d-coin",
+                "amount":1000
+            },
+          {
+            "denom": "doks",
+            "amount": 9007199254740993
+          }
+        ]
+      },
+            {
+        "address": "5CAFE3CD0FEE7A5DD98B366B19A201D428A79FB6",
+        "coins": [
+            {
+                "denom":"mycoin",
+                "amount":1000
+            },
+          {
+            "denom": "buck",
+            "amount": 9007199254740993
+          }
+        ]
+      }
+    ]
+  },
+  "chain_id": "test-chain-C1NpdI",
+  "genesis_time": "0001-01-01T00:00:00Z",
+  "validators": [
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "DED61E502E3696E869A4AF27DBA0666FD883A0723483CC342DFB95D5D9D8E563"
+      },
+      "power": 10,
+      "name": "sunny-1"
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "4D6E6D432CD3CCB95325634991CC952B1E3EA8734D0A5130313864BD566E38EA"
+      },
+      "power": 10,
+      "name": "sunny-2"
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "4D50A0CC5DB92B27A800ACA03571691C714DD5C1BDB8A14A25825F5834FD6286"
+       },    
+       "power": 10,
+       "name": "bucky-1" 
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "3F01B355DF7B06BA22407D71DBA66DB92AD1AA9E33BAE724311164862F225CC9"
+       },    
+       "power": 10,
+       "name": "validstate" 
+    },
+    {
+        "pub_key":{
+          "type":"ed25519",
+          "data":"76F742DB304EE79F3E96328B38BB81120874A6DDD3E2F0B94F3D6059F2684D49"
+          },
+        "power": 9001,
+        "name" : "michael"
+    },
+     {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "C110E6880D23F3B686A5684C6FA9AD4DC495514C6EBDC4B84F1715E647BBECE7"
+      },
+      "power": 10,
+      "name": "pbostrom"
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "6753C8869B30194BCB825F75D4DAE718224CD423CDE23C95B0F70620D4BA8CDE"
+      },
+      "power": 10,
+      "name": "mdyring-1"
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "856A2139BB00AF2160488672C7621AC38E363F5D718B5D801CF9499201459974"
+       },    
+       "power": 10,
+       "name": "chainflow-1" 
+    },
+    {
+      "pub_key": {
+        "type": "ed25519",
+        "data": "AEF46C20F791B48A0FB087A07B9CC32F9920D852754381E9A2BEE18A7AC0C78C"
+       },    
+       "power": 10,
+       "name": "aurel-dokia" 
+    }
+  ]
+}
