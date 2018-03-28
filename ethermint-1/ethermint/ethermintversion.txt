@@ -1,2 +1,0 @@
-ethermint:  0.5.3-b72a1eef
-go-ethereum:  1.6.7-stable
