@@ -1,0 +1,134 @@
+{
+  "genesis_time":"2018-04-05T17:34:26Z",
+  "chain_id":"basecoind-demo2",
+  "validators":
+  [
+    
+    {
+      "pub_key": {
+        "data": "3C9058DF02B83EEF440A7E126F33F94910D95E699A735B8F46936938542C72FD",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"104.236.19.113"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "D8AAC1553014BFF6ABCFE79A21B164735D7B89355297CF92BAF5DAFDE7346271",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"138.68.89.5"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "3727E0267F204B34B1FEBCEE7C580EE83FEA47ED06E38F38EFEBF5D0C9045E6B",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"167.99.84.181"
+    }
+    ,
+    {
+      "pub_key": {
+        "data": "218D73F16F4E1435ACA242360C172FF1245DF3EB30DDF4B6885388DDB44B33BF",
+        "type": "ed25519"
+      },
+      "power":1000,
+      "name":"146.185.128.82"
+    }
+  ],
+  "app_hash":"",
+  "app_state": {
+    "accounts": [
+      {
+        "name": "greg",
+        "address": "42960119BC3D724F6FA0E2883C0DCF550C59D1B2",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 1000000
+          },
+          {
+            "denom": "gregcoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "bucky",
+        "address": "5CAFE3CD0FEE7A5DD98B366B19A201D428A79FB6",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 10000
+          },
+          {
+            "denom": "buckycoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "fabo",
+        "address": "9C145AAAE1E7AD8735BC1B2173B092CEF6FD8557",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "fabocoin",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "mattbell",
+        "address": "0644CF5459E6A9C43B3EC02D9DEB6DE1620BBE9A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "tokenmatt",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "mattbell",
+        "address": "0644CF5459E6A9C43B3EC02D9DEB6DE1620BBE9A",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "tokenmatt",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "name": "fabo",
+        "address": "527E2333EF0B6E5FFB6E62FFA68B3707E08F2286",
+        "coins": [
+          {
+            "denom": "fermion",
+            "amount": 100
+          },
+          {
+            "denom": "tokenfabo",
+            "amount": 1000
+          }
+        ]
+      }
+    ],
+    "plugin_options": [
+      "coin/issuer", {"app": "sigs", "addr": "B01C264BFE9CBD45458256E613A6F07061A3A6B6"}
+    ]  }
+}
