@@ -82,6 +82,19 @@
         ]
       },
       {
+        "address": "5D9C04412AE20040A0A1618B2A8724DAD9BB8700",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "bianjiecoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
         "address": "E1DDCCAAFFECDBEC074947E02F1DEE1CE8C8BA0D",
         "coins": [
           {
