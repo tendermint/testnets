@@ -4,7 +4,7 @@
     {
       "pub_key": {
         "type": "AC26791624DE60",
-        "value": "2jPjxS/u71cJFez0ALdN65K1EiHNbloZYVr2GmEFR10="
+        "value": "pKl8Vmx063/qIkHIXcy2UG2Y3wcSiqnhZKMTe10Rj7Y="
       },
       "power": 10,
       "name": "adrian"
@@ -14,7 +14,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "1A5C009C739FDEA4A5F6546B5545F44B16E72E00",
+        "address": "2F5C30F5A8CAC1FB6001AEB2A5F656F7BF90EF38",
         "coins": [
           {
             "denom": "mycoin",
