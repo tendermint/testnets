@@ -21,9 +21,17 @@
       "pub_key": {
        "type": "AC26791624DE60",
        "value": "67LdpoerefSN/DbJe5nHnEpGarUSaPJv4hQzyVy6BIU="
-    },
+      },
       "power": 10,
       "name": "mike"
+    },
+    {
+      "pub_key": {
+        "type": "AC26791624DE60",
+        "value": "Xs9BgYAn69/lZa5Jya6uU2PqhIdzAb/jNvSB+BALkIE="
+      },
+      "power": 10,
+      "name": "pbostrom"
     }
   ],
   "app_hash": "",
@@ -90,6 +98,19 @@
           },
           {
             "denom": "nickcoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "C446B86801B1B67A46C6FABDE7FC7F448755D83F",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "paulcoin",
             "amount": 33333333
           }
         ]
