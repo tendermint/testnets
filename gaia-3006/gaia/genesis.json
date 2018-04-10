@@ -51,6 +51,14 @@
         ]
       },
       {
+        "pub_key": {
+          "type": "AC26791624DE60",
+          "value": "SW12+WpGKUCO9oT2CV0CD5kUclbXjJHV1MjerLWB7Oc="
+        },
+        "power": 10,
+        "name": "lino"
+      },
+      {
         "address": "D86F1E517FC94401BF3AA5FC5667CCB05A2179DC",
         "coins": [
           {
