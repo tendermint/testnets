@@ -21,7 +21,15 @@
     {
       "pub_key": {
         "type": "AC26791624DE60",
-        "value": "0XxJj7hhjKjSfrFK1+3RCJcfVRcOI7oEyeAG6UxVZZY="
+        "value": "BALelZs30PD00quzERgHBtbBHlKNPsHYrugqx0swTX0="
+      },
+      "power": 10,
+      "name": "bianjie"
+    },
+    {
+    "pub_key": {
+      "type": "AC26791624DE60",
+       "value": "0XxJj7hhjKjSfrFK1+3RCJcfVRcOI7oEyeAG6UxVZZY="
       },
       "power": 10,
       "name": "nuevax"
@@ -107,7 +115,7 @@
         ]
       },
       {
-        "address": "5D9C04412AE20040A0A1618B2A8724DAD9BB8700",
+        "address": "6EFF9FA0D99285DEDC12E0BA450B8C276FFFDBA5",
         "coins": [
           {
             "denom": "steak",
