@@ -33,6 +33,14 @@
             },
             "power": 1000,
             "name": "gaia-3005.cosmos.mythos.services"
+          },
+	  {
+            "pub_key": {
+              "data": "7C8C350301C97A54CC0D17B75CF984555F1E52C8FDC26A52C0977C365D75AEB9",
+              "type": "ed25519"
+            },
+            "power": 1000,
+            "name": "31.187.71.49"
           }
         ],
 	"app_hash": "",
@@ -60,7 +68,21 @@
                         "amount": 100000000
                       }
                     ]
-                  }
+                  },
+		  {
+                    "name": "nuevax",
+                    "address": "B8B60999D9952C98E1424F775DB0D084E59E4140",
+                    "coins": [
+                      {
+                        "denom": "fermion",
+                        "amount": 100000000
+                      },
+			   {
+                        "denom": "nuevaxium",
+                        "amount": 100000000
+                      }
+                    ]
+                  }	
                 ],
 		"plugin_options": [
 			"coin/issuer", {
