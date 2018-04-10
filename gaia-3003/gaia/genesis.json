@@ -138,6 +138,14 @@
 			},
 			"power": 1000,
 			"name": "mdyring"
+		},
+		{
+			"pub_key": {
+				"type": "ed25519",
+				"data": "A59140B268A36BA13A91E12CE8D8D356439517FA1DA3B6DE7207010FAB5A61C4"
+			},
+			"power": 1000,
+			"name": "bianjie"
 		}
 	],
 	"app_hash": "",
@@ -299,7 +307,21 @@
 						"amount": 100000
 					}
 				]
-			}
+			},
+			 {
+		        "name": "bianjie",
+		        "address": "7D626173FAA69D96E56523A333EAF78F87843CE5",
+		        "coins": [
+		          {
+		            "denom": "fermion",
+		            "amount": 100
+		          },
+		          {
+		            "denom": "bianjiecoin",
+		            "amount": 1000
+		          }
+        		]
+      		}
 		],
 		"plugin_options": [
 			"coin/issuer", {
