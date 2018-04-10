@@ -1,0 +1,19 @@
+[chain]
+name = "inofficial-101"
+
+[account]
+name = "pbostrom"
+address = "D44BCB86723B493AC659B2AC583D697EA3C96541"
+
+[coins]
+fermion = 10000
+
+[[sentry]]
+name = "pbostrom"
+host = "34.229.209.18"
+p2p = 46656
+
+[[validator]]
+name = "pbostrom"
+pub_key = "1289CF076EDBA71DACBC28C29AB6CDB20E8FF53C58AFE65FED27EACC6EA0CA90"
+power = 1000

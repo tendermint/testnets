@@ -1,0 +1,33 @@
+[chain]
+name = "inofficial-101"
+
+[account]
+name = "nickray"
+address = "17307FAB613EB9FB20459CF92346E07229BBC6D8"
+
+[coins]
+fermion = 10000
+validstatecoin = 1000000
+singletoncoin = 1
+
+[[sentry]]
+name = "validstate"
+# host = "peer.inofficial-101.valid.st"
+host = "35.195.251.208"
+p2p = 5653
+
+[[validator]]
+name = "validstate-a"
+pub_key = "C85EFA32D070B669FF3FFBE9F57960EC376981AF28C5CCBC23E6B6A04682C5C8"
+power = 1000
+
+[[validator]]
+name = "validstate-b"
+pub_key = "7C847574DB0168514B0E96EFD74345CAC53DBB6C91ED45CDD5EFAE0B6BAB6905"
+power = 1000
+
+[[validator]]
+name = "validstate-c"
+pub_key = "A15BA7734D05C4CEA1BAF6F24365FC1F6057B30B3EB7C69683BB1990F3055A3F"
+power = 1000
+

@@ -1,0 +1,19 @@
+[chain]
+name = "inofficial-101"
+
+[account]
+name = ""
+address = ""
+
+[coins]
+fermion = 10000
+
+[[sentry]]
+name = ""
+host = ""
+p2p = 46656
+
+[[validator]]
+name = ""
+pub_key = ""
+power = 1000

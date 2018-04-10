@@ -1,0 +1,31 @@
+[chain]
+name = "inofficial-101"
+
+[account]
+name = "adrian"
+address = "0FA1DB09E8B174E81E94280C047C158D4271457B"
+
+[coins]
+fermion = 10000
+adriancoin = 10000
+cosmoscoin = 10000
+
+[[sentry]]
+name = "adrian-one"
+host = "67.207.78.91"
+p2p = 46656
+
+[[sentry]]
+name = "adrian-two"
+host = "165.227.246.236"
+p2p = 46656
+
+[[validator]]
+name = "adrian-one"
+pub_key = "DEC97416BB64C735924CE2DC19C64A271F62353A0D309042E6E8B50FB4711C76"
+power = 1000
+
+[[validator]]
+name = "adrian-two"
+pub_key = "D0EBA91A141E18CE6A3A1ABE8CB2CFB38EA699AC40C2287A1CDDE0D75EDC007A"
+power = 1000
