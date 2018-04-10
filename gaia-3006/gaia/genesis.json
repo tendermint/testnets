@@ -1,4 +1,5 @@
 {
+  "genesis_time": "0001-01-01T00:00:00Z",
   "chain_id": "gaia-3006",
   "validators": [
     {
@@ -57,7 +58,7 @@
         "address": "2F5C30F5A8CAC1FB6001AEB2A5F656F7BF90EF38",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -70,7 +71,7 @@
         "address": "D86F1E517FC94401BF3AA5FC5667CCB05A2179DC",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -83,7 +84,7 @@
         "address": "BE537272ABBDB84E92908F40685FC04F3F83D036",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -96,7 +97,7 @@
         "address": "ED25519CD750083D289A4859091A9B6EE43AF91D",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -109,7 +110,7 @@
         "address": "5D9C04412AE20040A0A1618B2A8724DAD9BB8700",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -122,7 +123,7 @@
         "address": "8363D802166CD0A0AEDFF44CF1F7A78CD3F94D6F",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -135,7 +136,7 @@
         "address": "E1DDCCAAFFECDBEC074947E02F1DEE1CE8C8BA0D",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -148,7 +149,7 @@
         "address": "94933F0B43263C24422A72D2AB2C2823D1D23662",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -161,7 +162,7 @@
         "address": "C446B86801B1B67A46C6FABDE7FC7F448755D83F",
         "coins": [
           {
-            "denom": "mycoin",
+            "denom": "steak",
             "amount": 9007199254740992
           },
           {
@@ -171,6 +172,5 @@
         ]
       }
     ]
-  },
-  "genesis_time": "0001-01-01T00:00:00Z"
+  }
 }
