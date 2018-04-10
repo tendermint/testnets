@@ -32,6 +32,14 @@
       },
       "power": 10,
       "name": "pbostrom"
+    },
+    {
+      "pub_key":{
+          "type":"AC26791624DE60",
+          "val`ue":"nnuSYwa97CTdechfQasiv/pzXKVwxueYkcopkH26pAs="
+      },
+      "power": 10,
+      "name": "tony"
     }
   ],
   "app_hash": "",
