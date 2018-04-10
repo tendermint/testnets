@@ -8,6 +8,14 @@
       },
       "power": 10,
       "name": "adrian"
+    },
+    {
+      "pub_key": {
+        "type":"AC26791624DE60",
+        "value":"SW12+WpGKUCO9oT2CV0CD5kUclbXjJHV1MjerLWB7Oc="
+      },
+      "power": 10,
+      "name": "lino"
     }
   ],
   "app_hash": "",
