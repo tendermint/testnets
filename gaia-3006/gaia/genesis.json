@@ -1,0 +1,32 @@
+{
+  "chain_id": "gaia-3006",
+  "validators": [
+    {
+      "pub_key": {
+        "type": "AC26791624DE60",
+        "value": "2jPjxS/u71cJFez0ALdN65K1EiHNbloZYVr2GmEFR10="
+      },
+      "power": 10,
+      "name": "adrian"
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "1A5C009C739FDEA4A5F6546B5545F44B16E72E00",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 33333333
+          }
+        ]
+      }
+    ]
+  },
+  "genesis_time": "0001-01-01T00:00:00Z"
+}
