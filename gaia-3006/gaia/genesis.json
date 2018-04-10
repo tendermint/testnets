@@ -25,6 +25,32 @@
             "amount": 33333333
           }
         ]
+      },
+      {
+        "address": "D86F1E517FC94401BF3AA5FC5667CCB05A2179DC",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "chriscoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "ED25519CD750083D289A4859091A9B6EE43AF91D",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "nickcoin",
+            "amount": 33333333
+          }
+        ]
       }
     ]
   },
