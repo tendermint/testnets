@@ -8,6 +8,22 @@
       },
       "power": 10,
       "name": "adrian"
+    },
+    {
+      "pub_key": {
+        "type":"AC26791624DE60",
+        "value":"SW12+WpGKUCO9oT2CV0CD5kUclbXjJHV1MjerLWB7Oc="
+      },
+      "power": 10,
+      "name": "lino"
+    },
+    {
+      "pub_key": {
+       "type": "AC26791624DE60",
+       "value": "67LdpoerefSN/DbJe5nHnEpGarUSaPJv4hQzyVy6BIU="
+    },
+      "power": 10,
+      "name": "mike"
     }
   ],
   "app_hash": "",
@@ -49,6 +65,19 @@
           {
             "denom": "chriscoin",
             "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "BE537272ABBDB84E92908F40685FC04F3F83D036",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "mikecoin",
+            "amount": 100000
           }
         ]
       },
