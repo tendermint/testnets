@@ -111,6 +111,19 @@
         ]
       },
       {
+        "address": "8363D802166CD0A0AEDFF44CF1F7A78CD3F94D6F",
+        "coins": [
+          {
+            "denom": "mycoin",
+            "amount": 9007199254740992
+          },
+          {
+            "denom": "cybermonies",
+            "amount": 1337
+          }
+        ]
+      },
+      {
         "address": "E1DDCCAAFFECDBEC074947E02F1DEE1CE8C8BA0D",
         "coins": [
           {
