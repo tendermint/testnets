@@ -1,0 +1,199 @@
+{"genesis_time":"2018-04-17T17:59:26.519231548Z","chain_id":"nimbus-2000","consensus_params":{"block_size_params":{"max_bytes":22020096,"max_txs":100000,"max_gas":-1},"tx_size_params":{"max_bytes":10240,"max_gas":-1},"block_gossip_params":{"block_part_size_bytes":65536},"evidence_params":{"max_age":100000}},"validators":[{"pub_key":{"type":"AC26791624DE60","value":"wwWCxBtLGy8ZCQCCphDVUko0CJ2SJYipF1qpbxx7uTI="},"power":10,"name":"adrian-two"},{"pub_key":{"type":"AC26791624DE60","value":"ADIG1nxf8qjwaiiD6j3/Wz4nmZRkbmh9M8NeR450zmg="},"power":10,"name":"joon"},{"pub_key":{"type":"AC26791624DE60","value":"4Sc2UeR3PXkmMZJFCOkCn3uJQtzG3CqnFSojF4NzhM4="},"power":10,"name":"rigeyrige"},{"pub_key":{"type":"AC26791624DE60","value":"5We3yOM0tFGJMLNKuKXPj3Juklpmrv6VBI47oMue1tE="},"power":10,"name":"adrian-one"},{"pub_key":{"type":"AC26791624DE60","value":"MBAxDDaSy81IFjaJilUucU44LjAUeM5eN3eWKPlwjIo="},"power":10,"name":"anton :smiling_imp:"},{"pub_key":{"type":"AC26791624DE60","value":"9Sq7194UP6d8Jb+v8ZuLNXZWCRV49fjBSJsZMwl8myQ="},"power":10,"name":"adrian-3"},{"pub_key":{"type":"AC26791624DE60","value":"yAUwt1YPvP6+/ZNnnISW8OVI55rvW0nYa1H+ajfX8Aw="},"power":10,"name":"greg"},{"pub_key":{"type":"AC26791624DE60","value":"2XsEmUFMo00yBn3v6jeEOTBFrIRxTn86x4thOSgXH3A="},"power":10,"name":"chris"},{"pub_key":{"type":"AC26791624DE60","value":"yDOc2gwb6ELLl8gwYq4TMU4Vr4avmFKKOyU4eG2W3OE="},"power":10,"name":"Zaki"}],"app_hash":"","app_state":{
+    "accounts": [
+{
+        "address": "F6E2A97439D2A4CA1082AF80906974917B4C516B",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "antoncoin",
+            "amount": 33333333
+          }
+        ]
+      },
+{
+        "address": "032C86D7A1DD233AE85E497F8D43F83E28168488",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "sunnycoin",
+            "amount": 33333333
+          }
+        ]
+      },
+{
+        "address": "B7613B1F2815790733857680354BFCD463D05655",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "jooncoin",
+            "amount": 33333333
+          }
+        ]
+      },
+{
+        "address": "729BE4A2071875EDB770D003F0B441F2974CF9BB",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "gregcoin",
+            "amount": 33333333
+          }
+        ]
+      },
+{
+        "address": "13386E341FE408438EC1BF5EA138473543547E0E",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "zakicoin",
+            "amount": 33333333
+          }
+        ]
+      },
+{
+        "address": "D9E70E62B9F606BA52DCA202F4E07F29186070C3",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "rigelcoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "2F5C30F5A8CAC1FB6001AEB2A5F656F7BF90EF38",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "adriancoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "D86F1E517FC94401BF3AA5FC5667CCB05A2179DC",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "chriscoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "BE537272ABBDB84E92908F40685FC04F3F83D036",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "mikecoin",
+            "amount": 100000
+          }
+        ]
+      },
+      {
+        "address": "ED25519CD750083D289A4859091A9B6EE43AF91D",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "nickcoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "6EFF9FA0D99285DEDC12E0BA450B8C276FFFDBA5",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "bianjiecoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "8363D802166CD0A0AEDFF44CF1F7A78CD3F94D6F",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "cybermonies",
+            "amount": 1337
+          }
+        ]
+      },
+      {
+        "address": "E1DDCCAAFFECDBEC074947E02F1DEE1CE8C8BA0D",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "linocoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "94933F0B43263C24422A72D2AB2C2823D1D23662",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "nuevaxcoin",
+            "amount": 33333333
+          }
+        ]
+      },
+      {
+        "address": "C446B86801B1B67A46C6FABDE7FC7F448755D83F",
+        "coins": [
+          {
+            "denom": "steak",
+            "amount": 100
+          },
+          {
+            "denom": "paulcoin",
+            "amount": 33333333
+          }
+        ]
+      }
+    ]
+  }}
