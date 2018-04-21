@@ -71,7 +71,7 @@ seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
 # Do not add private peers to this list if you don't want them advertised
-persistent_peers = "bb029f6756c2be3226a964abba495b8d1b8b44b3@159.65.211.28:46656,ac40395bce1f1e6b0f9107fb83c86e732a4ec696@67.207.71.85:46656"
+persistent_peers = "b9ff856fcdd5b2942e679808697c0e1da2bde4f8@67.207.71.85:46656,a83a2091db6c2166476997e95947c79baf7b19be@159.65.211.28:46656"
 
 # Path to address book
 addr_book_file = "config/addrbook.json"
