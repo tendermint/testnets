@@ -23,7 +23,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "2F5C30F5A8CAC1FB6001AEB2A5F656F7BF90EF38",
+        "address": "FD8DA5F512A59A30F8698E3CA638D384A68DF977",
         "coins": [
           {
             "denom": "steak",
@@ -32,6 +32,10 @@
           {
             "denom": "adriancoin",
             "amount": 33333333
+          },
+          {
+            "denom": "photon",
+            "amount": 10000000000
           }
         ]
       },
