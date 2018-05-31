@@ -1,8 +1,9 @@
 TESTNET STATUS
 
-*May 31, 2018, 10:00 EST* - New Release
+*May 31, 2018, 14:00 EST* - New Release
 
-- Released gaia v0.17.4 with update for Tendermint v0.19.7
+- Released gaia
+  [v0.17.4](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.17.4) with update for Tendermint v0.19.7
 - Fixes a WAL bug and some more
 - Please update to this if you have trouble restarting a node
 
